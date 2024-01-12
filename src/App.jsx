@@ -18,11 +18,15 @@ function App() {
             <a className='px-4 py-2 text-xl font-light text-blue-800 hover:underline' href="">Contact</a>
           </div>
         </header>
-        <main className='flex justify-center'>
-          <div className='relative w-full h-auto'>
+        <main className='flex flex-col gap-8 justify-center'>
+          <section className='relative w-full h-auto'>
             <img className='w-full h-auto' src="images/wix1.webp" alt="Picture of a classroom" />
             <div className='absolute inset-0 bg-black opacity-20'></div>
-          </div>
+          </section>
+          <section className='flex gap-8'>
+            <div className='w-1/2 h-64 bg-yellow-400'></div>
+            <div className='w-1/2 h-64 bg-yellow-400'></div>
+          </section>
         </main>
         <footer>
 
