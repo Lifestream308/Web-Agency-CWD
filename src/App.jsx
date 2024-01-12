@@ -18,8 +18,10 @@ function App() {
             <a className='px-4 py-2 text-xl font-light text-blue-800 hover:underline' href="">Contact</a>
           </div>
         </header>
-        <main>
-
+        <main className='mt-8 w-full h-auto flex justify-center'>
+          <div className='w-full h-auto'>
+            <img className='w-full h-auto' src="images/wix1.webp" alt="Picture of a classroom" />
+          </div>
         </main>
         <footer>
 
