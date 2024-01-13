@@ -31,7 +31,7 @@ function App() {
                 <p className='mx-auto w-4/5 text-xl font-light leading-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reprehenderit sit fugiat, optio aliquid incidunt ea in eum sapiente similique culpa provident molestias obcaecati maxime! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, placeat inventore distinctio molestias, voluptatum repellat fugiat dolores maxime libero ipsam odit in reprehenderit at veritatis?</p>
               </div>
             </div>
-            <div className='w-1/2 bg-yellow-400'>
+            <div className='w-1/2'>
               <img className='w-full h-auto' src="images/wix2.webp" alt="" />
             </div>
           </section>
@@ -42,7 +42,7 @@ function App() {
                 <p className='mx-auto w-4/5 text-xl font-light leading-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reprehenderit sit fugiat, optio aliquid incidunt ea in eum sapiente similique culpa provident molestias obcaecati maxime! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, placeat inventore distinctio molestias, voluptatum repellat fugiat dolores maxime libero ipsam odit in reprehenderit at veritatis?</p>
               </div>
             </div>
-            <div className='w-1/2 bg-cyan-400'>
+            <div className='w-1/2'>
               <img className='w-full h-auto' src="images/wix2.webp" alt="" />
             </div>
           </section>
