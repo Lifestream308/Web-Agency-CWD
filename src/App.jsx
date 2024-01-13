@@ -22,6 +22,7 @@ function App() {
           <section className='relative w-full h-auto'>
             <img className='w-full h-auto' src="images/wix1.webp" alt="Picture of a classroom" />
             <div className='absolute inset-0 bg-black opacity-15'></div>
+            <h2 className='absolute w-[50rem] font-bold text-center text-white text-7xl top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>Welcome to Learning Time Adventures Daycare</h2>
           </section>
           <section className='flex gap-8'>
             <div className='w-1/2 h-64 bg-yellow-400'></div>
