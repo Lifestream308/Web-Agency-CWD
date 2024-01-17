@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function HeaderComponent() {
   return (
@@ -9,9 +10,9 @@ export default function HeaderComponent() {
             <h1 className='text-2xl font-bold hidden text-blue-700 md:block xl:text-3xl'>Learning Time Adventures Daycare</h1>
           </div>
           <div className='flex flex-wrap'>
-            <a className='px-4 py-2 text-xl font-light text-blue-800 hover:underline' href="">Home</a>
-            <a className='px-4 py-2 text-xl font-light text-blue-800 hover:underline' href="">About Us</a>
-            <a className='px-4 py-2 text-xl font-light text-blue-800 hover:underline' href="">Contact</a>
+            <Link to='/' className='px-4 py-2 text-xl font-light text-blue-800 hover:underline'>Home</Link>
+            <Link to='/about' className='px-4 py-2 text-xl font-light text-blue-800 hover:underline' href="">About Us</Link>
+            <Link to='/' className='px-4 py-2 text-xl font-light text-blue-800 hover:underline' href="">Contact</Link>
           </div>
         </header>
     </div>
