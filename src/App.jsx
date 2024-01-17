@@ -12,7 +12,6 @@ function App() {
     <>
       <HeaderComponent />
       <MainSectionsComponent />
-      <BGColorSectionComponent />
       <FooterComponent />
     </>
   )
