@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function MainSectionsComponent() {
   return (
-    <>
+    <div className='mt-8 flex flex-col gap-8 px-[6%]'>
         <main className='flex flex-col gap-6 justify-center md:gap-16'>
           <section className='relative w-full h-auto'>
             <img className='w-full h-auto' src="images/wix1.webp" alt="Picture of a classroom" />
@@ -36,6 +36,6 @@ export default function MainSectionsComponent() {
             </div>
           </section>
         </main>
-    </>
+    </div>
   )
 }

@@ -10,10 +10,8 @@ function App() {
 
   return (
     <>
-      <div className='mt-8 flex flex-col gap-8 px-[6%]'>
-        <HeaderComponent />
-        <MainSectionsComponent />
-      </div>
+      <HeaderComponent />
+      <MainSectionsComponent />
       <BGColorSectionComponent />
       <FooterComponent />
     </>
