@@ -3,7 +3,7 @@ import React from 'react'
 export default function BGColorSectionComponent() {
   return (
     <>
-        <section className='mt-16 bg-amber-200'>
+        <section className='mt-6 bg-amber-200 md:mt-16'>
             <div className='flex gap-6 px-[12%] py-24'>
                 <div className='relative flex justify-center w-1/2'>
                     <div class="absolute w-full h-full bg-blue-500 transform -translate-x-6 translate-y-6"></div>
