@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import HamburgerComponent from './HamburgerComponent'
 
 export default function HeaderComponent() {
   return (
@@ -9,11 +10,12 @@ export default function HeaderComponent() {
             <img className='w-36 min-w-32 h-auto' src="images/adventurelearningtime.png" alt="Company Tree Logo" />
             <h1 className='text-2xl font-bold hidden text-blue-700 md:block xl:text-3xl'>Learning Time Adventures Daycare</h1>
           </div>
-          <div className='flex flex-wrap'>
+          <nav className='hidden flex-wrap md:flex'>
             <Link to='/' className='px-4 py-2 text-xl font-light text-blue-800 hover:underline'>Home</Link>
             <Link to='/about' className='px-4 py-2 text-xl font-light text-blue-800 hover:underline' href="">About</Link>
             <Link to='/' className='px-4 py-2 text-xl font-light text-blue-800 hover:underline' href="">Contact</Link>
-          </div>
+          </nav>
+          <HamburgerComponent />
         </header>
     </div>
   )
