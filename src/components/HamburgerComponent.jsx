@@ -28,12 +28,12 @@ export default function HamburgerComponent() {
         <div className='flex md:hidden'>
             <nav className='h-20 p-4'>
                 <div className="burger-menu h-full w-16 flex flex-col justify-between cursor-pointer" onClick={updateMenu}>
-                    <div className={burger_class + ''} ></div>
-                    <div className={burger_class} ></div>
-                    <div className={burger_class} ></div>
+                    <div className={burger_class + ' h-2 rounded-lg bg-blue-700'} ></div>
+                    <div className={burger_class + ' h-2 rounded-lg bg-blue-700'} ></div>
+                    <div className={burger_class + ' h-2 rounded-lg bg-blue-700'} ></div>
                 </div>
             </nav>
-            <div className={menu_class + ''}></div>
+            <div className={menu_class + ' '}></div>
         </div>
 
         {/* <nav className='flex flex-wrap md:hidden'>
