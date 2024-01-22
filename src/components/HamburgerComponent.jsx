@@ -7,18 +7,18 @@ export default function HamburgerComponent() {
 
     // to change burger classes
     const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
-    const [menu_class, setMenuClass] = useState("menu hidden")
+    const [menu_class, setMenuClass] = useState("menu hiden")
     const [isMenuClicked, setIsMenuClicked] = useState(false)
 
     // toggle burger menu change
     const updateMenu = () => {
         if(!isMenuClicked) {
             setBurgerClass("burger-bar clicked")
-            setMenuClass("menu visible")
+            setMenuClass("menu visibl")
         }
         else {
             setBurgerClass("burger-bar unclicked")
-            setMenuClass("menu hidden")
+            setMenuClass("menu hiden")
         }
         setIsMenuClicked(!isMenuClicked)
     }
@@ -28,12 +28,12 @@ export default function HamburgerComponent() {
         <div className='flex md:hidden'>
             <nav className='h-20 p-4'>
                 <div className="burger-menu h-full w-16 flex flex-col justify-between cursor-pointer" onClick={updateMenu}>
-                    <div className={burger_class + ' h-2 rounded-lg bg-blue-700'} ></div>
-                    <div className={burger_class + ' h-2 rounded-lg bg-blue-700'} ></div>
-                    <div className={burger_class + ' h-2 rounded-lg bg-blue-700'} ></div>
+                    <div className={burger_class + ' h-2 rounded-lg bg-blue-800'} ></div>
+                    <div className={burger_class + ' h-2 rounded-lg bg-blue-800'} ></div>
+                    <div className={burger_class + ' h-2 rounded-lg bg-blue-800'} ></div>
                 </div>
             </nav>
-            <div className={menu_class + ' absolute w-1/2 h-screen bg-blue-300 top-0 right-0 -z-10'}></div>
+            <div className={menu_class + ' absolute h-72 bg-white top-32 right-0 rounded-bl-lg z-10 transition-all ease-in duration-200'}></div>
         </div>
 
         {/* <nav className='flex flex-wrap md:hidden'>
