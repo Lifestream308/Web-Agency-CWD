@@ -33,7 +33,7 @@ export default function HamburgerComponent() {
                     <div className={burger_class + ' h-2 rounded-lg bg-blue-700'} ></div>
                 </div>
             </nav>
-            <div className={menu_class + ' '}></div>
+            <div className={menu_class + ' absolute w-1/2 h-screen bg-blue-300 top-0 right-0 -z-10'}></div>
         </div>
 
         {/* <nav className='flex flex-wrap md:hidden'>
