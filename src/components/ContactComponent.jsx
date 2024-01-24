@@ -9,7 +9,7 @@ export default function ContactComponent() {
                     <div className='h-full justify-center items-center flex text-blue-900'>
                         <div className='flex flex-col gap-6 items-center text-center'>
                             <h2 className='px-2 text-5xl font-bold'>Opening Hours</h2>
-                            <p className='text-xl font-semibold'>LearningTimeAdventuresDaycare@gmail.com</p>
+                            <p className='text-sm font-semibold lg:text-lg'>LearningTimeAdventuresDaycare@gmail.com</p>
                             <p className='text-xl font-semibold'>(626)-123-4567</p>
                             <p className='text-xl font-semibold'>Mon-Fri: 8am-5pm</p>
                             <p className='text-xl font-semibold'>Sat-Sun: Closed</p>
