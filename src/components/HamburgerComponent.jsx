@@ -25,7 +25,7 @@ export default function HamburgerComponent() {
 
   return (
     <>
-        <div className='flex md:hidden'>
+        <div className='flex lg:hidden'>
             <nav className='h-20 p-4'>
                 <div className="burger-menu h-full w-16 flex flex-col justify-between cursor-pointer" onClick={updateMenu}>
                     <div className={burger_class + ' h-2 rounded-lg bg-blue-800'} ></div>
