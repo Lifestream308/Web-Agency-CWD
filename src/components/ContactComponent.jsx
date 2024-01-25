@@ -21,6 +21,9 @@ export default function ContactComponent() {
                 </div>
             </section>
         </div>
+        <div className='w-full mt-8 border-y-[1px] border-gray-400'>
+            <img className='w-full h-auto' src="images/map1.jpg" alt="" />
+        </div>
     </>
   )
 }
