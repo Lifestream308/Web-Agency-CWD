@@ -24,7 +24,7 @@ export default function MainSectionsComponent() {
                 <img className='w-full h-full object-cover' src="images/wix2.webp" alt="" />
               </div>
             </section>
-            <section className='flex flex-col gap-6 md:flex-row'>
+            <section className='flex flex-col gap-6 md:flex-row md:max-h-[500px]'>
               <div className='py-10 w-full bg-gradient-to-b from-blue-50 via-blue-50 to-blue-200 md:w-1/2 md:py-4'>
                 <div className='h-full flex items-center text-blue-900'>
                   <div className='text-center'>
@@ -34,7 +34,7 @@ export default function MainSectionsComponent() {
                 </div>
               </div>
               <div className='w-full md:w-1/2'>
-                <img className='w-full h-full object-cover' src="images/wix2.webp" alt="" />
+                <img className='w-full h-full object-cover' src="images/outside1.jpg" alt="" />
               </div>
             </section>
           </main>
