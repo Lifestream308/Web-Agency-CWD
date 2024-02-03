@@ -21,20 +21,20 @@ export default function MainSectionsComponent() {
                 </div>
               </div>
               <div className='w-full md:w-1/2'>
-                <img className='w-full h-full object-cover' src="images/wix2.webp" alt="" />
+                <img className='w-full h-full object-cover' src="images/teachersteph1.jpg" alt="" />
               </div>
             </section>
             <section className='flex flex-col gap-6 md:flex-row md:max-h-[500px]'>
               <div className='py-10 w-full bg-gradient-to-b from-blue-50 via-blue-50 to-blue-200 md:w-1/2 md:py-4'>
                 <div className='h-full flex items-center text-blue-900'>
                   <div className='text-center'>
-                      <h2 className='text-5xl font-bold'>About Us</h2>
-                      <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reprehenderit sit fugiat, optio aliquid incidunt ea in eum sapiente similique culpa provident molestias obcaecati maxime! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, placeat inventore distinctio molestias, voluptatum repellat fugiat dolores maxime libero ipsam odit in reprehenderit at veritatis?</p>
+                      <h2 className='text-5xl font-bold'>Our Curriculum</h2>
+                      <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>Here at Learning Time Adventures we follow the play-based with Montessori curriculum. Our program offers individual childs learning process as we all learn at our own pace. Essentially play based learning combines a form of child led play such as open ended play or imaginative play. We also focus on assisting every student in their milestone development, teach core areas like language based phonics, math concepts, science, art, intro into spanish, chinese, and sensory. Through individual workbooks, class portfolio and assessments. We gather the progress of your child to continue to set them up for success.</p>
                   </div>
                 </div>
               </div>
               <div className='w-full md:w-1/2'>
-                <img className='w-full h-full object-cover' src="images/outside1.jpg" alt="" />
+                <img className='w-full h-full object-cover' src="images/stock3.jpg" alt="" />
               </div>
             </section>
           </main>
