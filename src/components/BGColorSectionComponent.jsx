@@ -12,7 +12,7 @@ export default function BGColorSectionComponent() {
                 <div className='flex flex-col px-1 justify-center gap-4 w-full text-blue-800 text-center md:w-1/2'>
                     <h2 className='text-5xl font-bold'>Family Business</h2>
                     <h3 className='text-2xl font-semibold'>Outstanding Quality</h3>
-                    <p className='text-lg font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo corrupti, vitae est eum praesentium reprehenderit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus officiis ea eum reiciendis. Accusantium maxime doloribus atque ab vitae dignissimos?</p>
+                    <p className='text-lg font-light'>We understand our babies are adults in training, therefore we believe we can instill a love for learning while having fun exploring the world around us. We also want to recognize our parents for supporting the goal we have as a family home daycare. We feel blessed and very fortunate to be on this journey with you all! We value family, we value life.</p>
                 </div>
             </div>
         </section>
