@@ -8,7 +8,7 @@ export default function AboutComponent() {
           <div className='py-10 w-full bg-gradient-to-b from-zinc-50 via-zinc-100 to-zinc-200 md:w-1/2 md:py-4'>
             <div className='h-full flex items-center'>
               <div className='text-center'>
-                  <h2 className='text-5xl font-bold'>About Us</h2>
+                  <h2 className='text-5xl font-bold'>Our Curriculum</h2>
                   <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reprehenderit sit fugiat, optio aliquid incidunt ea in eum sapiente similique culpa provident molestias obcaecati maxime! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, placeat inventore distinctio molestias, voluptatum repellat fugiat dolores maxime libero ipsam odit in reprehenderit at veritatis?</p>
               </div>
             </div>

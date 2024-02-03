@@ -28,7 +28,7 @@ export default function MainSectionsComponent() {
               <div className='py-10 w-full bg-gradient-to-b from-blue-50 via-blue-50 to-blue-200 md:w-1/2 md:py-4'>
                 <div className='h-full flex items-center text-blue-900'>
                   <div className='text-center'>
-                      <h2 className='text-5xl font-bold'>Our Curriculum</h2>
+                      <h2 className='text-5xl font-bold'>About Us</h2>
                       <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>Here at Learning Time Adventures we follow the play-based with Montessori curriculum. Our program offers individual childs learning process as we all learn at our own pace. Essentially play based learning combines a form of child led play such as open ended play or imaginative play. We also focus on assisting every student in their milestone development, teach core areas like language based phonics, math concepts, science, art, intro into spanish, chinese, and sensory. Through individual workbooks, class portfolio and assessments. We gather the progress of your child to continue to set them up for success.</p>
                   </div>
                 </div>
