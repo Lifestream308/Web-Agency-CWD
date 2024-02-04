@@ -16,12 +16,14 @@ export default function MainSectionsComponent() {
                 <div className='h-full items-center flex text-blue-900'>
                   <div className='text-center'>
                       <h2 className='text-5xl font-bold'>Our Story</h2>
-                      <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reprehenderit sit fugiat, optio aliquid incidunt ea in eum sapiente similique culpa provident molestias obcaecati maxime! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, placeat inventore distinctio molestias, voluptatum repellat fugiat dolores maxime libero ipsam odit in reprehenderit at veritatis?</p>
+                      <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>I am a proud mother of little ones, so believe me I understand all the emotions that go along with the process of picking the school that is the best fit for you and your family. Having had experience of navigating these same waters I felt the need to share access to our family style daycare here in our city of West Covina, Ca.</p>
+                      <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>I have my California Teacher Permit, Pediatric CPR & First aid certification, DSP1&2 certification, I have my Associates Degree in Child Development, Bachelor's Degree in Human Development with the emphasis in Child Development and most importantly, I have over a decade experience in the child development field.</p>
+                      <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>It wasn't until I became a mother that I realized not every place upholds high standards in regards to childcare and that is something that desperately needs to change. It will definitely be something we will work hard to achieve daily at Learning Time Adventures home daycare.</p>
                   </div>
                 </div>
               </div>
               <div className='w-full md:w-1/2'>
-                <img className='w-full h-full object-cover' src="images/teachersteph1.jpg" alt="" />
+                <img className='w-full h-full object-cover object-left-bottom' src="images/teachersteph1.jpg" alt="" />
               </div>
             </section>
             <section className='flex flex-col gap-6 md:flex-row md:max-h-[500px]'>
