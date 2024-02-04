@@ -31,14 +31,14 @@ export default function AboutComponent() {
             <div className='max-w-sm'>
               <img className='w-96 h-96 object-cover object-top' src="/images/teacher2.jpg" alt="Employee of Learning Time Adventures Daycare" />
               <div className='py-8 bg-gradient-to-b from-yellow-200 via-yellow-200 to-yellow-300'>
-                <h3 className='text-2xl font-bold'>Kris Ward</h3>
+                <h3 className='text-2xl font-bold'>Yvonne</h3>
                 <p className='pt-3 text-xl font-semibold'>Educator</p>
               </div>
             </div>
             <div className='max-w-sm'>
               <img className='w-96 h-96 object-cover object-top' src="/images/teacher3.jpg" alt="Employee of Learning Time Adventures Daycare" />
               <div className='py-8 bg-gradient-to-b from-yellow-200 via-yellow-200 to-yellow-300'>
-                <h3 className='text-2xl font-bold'>Kris Ward</h3>
+                <h3 className='text-2xl font-bold'>Stephanie</h3>
                 <p className='pt-3 text-xl font-semibold'>Educator</p>
               </div>
             </div>
