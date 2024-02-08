@@ -37,7 +37,7 @@ export default function MainSectionsComponent() {
                 </div>
               </div>
               <div className='w-full md:w-1/2'>
-                <img className='w-full h-full object-cover' src="images/stock3.jpg" alt="" />
+                <img className='w-full h-full object-cover' src="images/stocksmall3.jpg" alt="" />
               </div>
             </section>
           </main>

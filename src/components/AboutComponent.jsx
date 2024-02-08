@@ -14,7 +14,7 @@ export default function AboutComponent() {
             </div>
           </div>
           <div className='w-full md:w-1/2'>
-            <img className='w-full h-full object-cover' src="images/stock2.jpg" alt="" />
+            <img className='w-full h-full object-cover' src="images/stocksmall1.jpg" alt="" />
           </div>
         </section>
         <section className='text-center'>
