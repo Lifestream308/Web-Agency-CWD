@@ -15,24 +15,31 @@ export default function MainSectionsComponent() {
               <div className='py-10 w-full bg-gradient-to-b from-yellow-200 via-yellow-200 to-yellow-300 md:w-1/2 md:py-4'>
                 <div className='h-full items-center flex text-blue-900'>
                   <div className='text-center'>
-                      <h2 className='text-5xl font-bold'>Our Story</h2>
-                      <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>I am a proud mother of little ones, so believe me I understand all the emotions that go along with the process of picking the school that is the best fit for you and your family. Having had experience of navigating these same waters I felt the need to share access to our family style daycare here in our city of West Covina, Ca.</p>
-                      <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>I have my California Teacher Permit, Pediatric CPR & First aid certification, DSP1&2 certification, I have my Associates Degree in Child Development, Bachelor's Degree in Human Development with the emphasis in Child Development and most importantly, I have over a decade experience in the child development field.</p>
-                      <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>It wasn't until I became a mother that I realized not every place upholds high standards in regards to childcare and that is something that desperately needs to change. It will definitely be something we will work hard to achieve daily at Learning Time Adventures home daycare.</p>
+                      <h2 className='text-5xl font-bold'>About Us</h2>
+                      <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>We are a licensed CDSS home daycare. Dedicated to providing quality care for all children we serve. We focus on assisting every student in their milestone development. 
+- Phonics/Language  -Sensory 
+- Intro to Spanish       -Intro to Chinese
+-Emotional Awareness Development  
+-Math Concepts          -Music & Dance
+-Science                     -Art 
+
+We also offer 8-hour day care. (full time/ part-time)
+-potty-training - indoor/outdoor environment 
+-breakfast, hot lunch, am/pm snacks
+</p>
                   </div>
                 </div>
               </div>
               <div className='w-full md:w-1/2'>
-                <img className='w-full h-full object-cover object-left-bottom' src="images/teachersteph1.jpg" alt="" />
+                <img className='w-full h-full object-cover object-left-bottom' src="images/bookreading1.jpg" alt="" />
               </div>
             </section>
             <section className='flex flex-col gap-6 md:flex-row md:max-h-[500px]'>
               <div className='py-10 w-full bg-gradient-to-b from-blue-50 via-blue-50 to-blue-200 md:w-1/2 md:py-4'>
                 <div className='h-full flex items-center text-blue-900'>
                   <div className='text-center'>
-                      <h2 className='text-5xl font-bold'>About Us</h2>
-                      <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>Becoming a mother changed the way I viewed life. I became aware of the lack of childcare standards being provided to children and inspired the need to open up my own home daycare. Safety, kindness and education are our priorities. Experiences have taught me that not only do I need to educate my own children but share our same principles to our community searching for the care their families deserve.
-</p>
+                      <h2 className='text-5xl font-bold'>Our Curriculum</h2>
+                      <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>Learning Time Adventures follows a play-based Montessori inspiration curriculum. Our program offers an individual child's learning process as we all learn at our own pace.</p>
                   </div>
                 </div>
               </div>
