@@ -4,8 +4,8 @@ export default function AboutComponent() {
   return (
     <>
       <div className='mt-8 flex flex-col gap-16 px-[6%] text-blue-900'>
-        <section className='flex flex-col gap-6 md:flex-row'>
-          <div className='py-10 w-full bg-gradient-to-b from-zinc-50 via-zinc-100 to-zinc-200 md:w-1/2 md:py-4'>
+        <section className='flex flex-col gap-6 lg:flex-row'>
+          <div className='py-10 w-full bg-gradient-to-b from-zinc-50 via-zinc-100 to-zinc-200 lg:w-1/2 lg:py-4'>
             <div className='h-full flex items-center'>
               <div className='text-center'>
                   <h2 className='text-5xl font-bold'>Our Story</h2>
@@ -15,8 +15,8 @@ export default function AboutComponent() {
               </div>
             </div>
           </div>
-          <div className='w-full md:w-1/2'>
-            <img className='w-full h-full object-cover' src="images/seplaying1.jpg" alt="" />
+          <div className='w-full lg:w-1/2'>
+            <img className='w-full h-full object-cover object-left' src="images/seplaying1.jpg" alt="" />
           </div>
         </section>
         <section className='text-center'>
