@@ -11,14 +11,14 @@ export default function MainSectionsComponent() {
               <div className='absolute inset-0 bg-black opacity-20'></div>
               <h2 className='absolute w-4/5 font-bold text-center text-white text-3xl leading-tight top-[30%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 sm:text-5xl lg:text-7xl'>Welcome to Learning Time Adventures Daycare</h2>
             </section>
-            <section className='flex flex-col gap-6 md:flex-row'>
-              <div className='py-10 w-full bg-gradient-to-b from-yellow-200 via-yellow-200 to-yellow-300 md:w-1/2 md:py-4'>
+            <section className='flex flex-col gap-6 lg:flex-row'>
+              <div className='py-10 w-full bg-gradient-to-b from-yellow-200 via-yellow-200 to-yellow-300 lg:w-1/2 lg:py-4'>
                 <div className='h-full items-center flex text-blue-900'>
                   <div className=''>
                     <h2 className='text-5xl text-center font-bold'>About Us</h2>
                     <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>We are a licensed CDSS home daycare. Dedicated to providing quality care for all children we serve. We focus on assisting every student in their milestone development. 
                     </p>
-                    <div className="py-4 flex gap-4 justify-center">
+                    <div className="py-4 ml-[10%] flex gap-4">
                       <ul>
                         <li>-Phonics/Lanuage</li>
                         <li>-Sensory</li>
@@ -35,7 +35,7 @@ export default function MainSectionsComponent() {
                     </div>
                     <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>We also offer 8-hour day care. (full time/ part-time)
                     </p>
-                    <ul className='mx-auto w-fit'>
+                    <ul className='ml-[10%] w-fit'>
                       <li>-Potty-training</li>
                       <li>-Indoor/outdoor environment</li>
                       <li>-Breakfast, hot lunch, am/pm snacks</li>
@@ -43,8 +43,8 @@ export default function MainSectionsComponent() {
                   </div>
                 </div>
               </div>
-              <div className='w-full md:w-1/2'>
-                <img className='w-full h-full object-cover object-left-bottom' src="images/bookreading1.jpg" alt="" />
+              <div className='w-full lg:w-1/2'>
+                <img className='w-full h-full object-cover' src="images/bookreading1.jpg" alt="" />
               </div>
             </section>
             <section className='flex flex-col gap-6 md:flex-row md:max-h-[500px]'>
