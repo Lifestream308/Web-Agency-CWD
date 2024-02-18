@@ -19,6 +19,21 @@ export default function AboutComponent() {
             <img className='w-full h-full object-cover object-left' src="images/seplaying1.jpg" alt="" />
           </div>
         </section>
+        <section className='flex flex-col gap-6 lg:flex-row'>
+          <div className='py-10 w-full bg-gradient-to-b from-yellow-200 via-yellow-200 to-yellow-300 lg:w-1/2 lg:py-4'>
+            <div className='h-full items-center flex text-blue-900'>
+              <div className='text-center'>
+                <h2 className='text-5xl font-bold'>Our Mission</h2>
+                <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>Safety, kindness and education are our priorities.</p>
+                <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>We understand our babies are adults in training, therefore we believe we can instill a love for learning while having fun exploring the world around us.</p>
+                <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>Experiences have taught me that not only do I need to educate my own children but share our same principles to our community searching for quality care their families deserve.</p>
+              </div>
+            </div>
+          </div>
+          <div className='w-full lg:w-1/2'>
+            <img className='w-full h-full object-cover' src="images/outside3.jpg" alt="" />
+          </div>
+        </section>
         {/* <section className='text-center'>
           <h2 className='text-5xl font-bold'>Our Team</h2>
           <h3 className='pt-6 text-xl font-semibold'>Caring & Dedicated</h3>
