@@ -19,7 +19,7 @@ export default function AboutComponent() {
             <img className='w-full h-full object-cover object-left' src="images/seplaying1.jpg" alt="" />
           </div>
         </section>
-        <section className='text-center'>
+        {/* <section className='text-center'>
           <h2 className='text-5xl font-bold'>Our Team</h2>
           <h3 className='pt-6 text-xl font-semibold'>Caring & Dedicated</h3>
           <div className='pt-16 flex justify-center gap-6 flex-wrap'>
@@ -45,7 +45,7 @@ export default function AboutComponent() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     </>
   )
