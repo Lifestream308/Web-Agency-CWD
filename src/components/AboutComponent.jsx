@@ -30,7 +30,7 @@ export default function AboutComponent() {
             </div>
           </div>
           <div className='w-full lg:w-1/2'>
-            <img className='w-full h-full object-cover' src="images/outside3.jpg" alt="" />
+            <img className='w-full h-full object-cover' src="images/bookreading2.jpg" alt="" />
           </div>
         </section>
         {/* <section className='text-center'>
