@@ -52,7 +52,7 @@ export default function MainSectionsComponent() {
                 <div className='h-full flex items-center text-blue-900'>
                   <div className='text-center'>
                       <h2 className='text-5xl font-bold'>Our Curriculum</h2>
-                      <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>Learning Time Adventures follows a play-based Montessori inspiration curriculum. Our program offers an individual child's learning process as we all learn at our own pace.</p>
+                      <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>Learning Time Adventures follows a play-based Montessori inspiration curriculum.</p>
                   </div>
                 </div>
               </div>
