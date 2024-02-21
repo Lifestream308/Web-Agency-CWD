@@ -36,7 +36,7 @@ export default function ContactComponent() {
                 </div>
               </div>
               <div className='w-full md:w-1/2'>
-                <img className='w-full h-full object-cover' src="images/stocksmall3.jpg" alt="" />
+                <img className='w-full h-full object-cover' src="images/stocksmall1.jpg" alt="" />
               </div>
             </section>
         </div>
