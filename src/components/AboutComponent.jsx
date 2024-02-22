@@ -10,12 +10,11 @@ export default function AboutComponent() {
               <div className='text-center'>
                   <h2 className='text-5xl font-bold'>Our Story</h2>
                   <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>It wasn’t until I became a mother that I realized not every place upholds high standards in regards to childcare and that is something that desperately needs to change. Our practices here at Learning Time Adventure not only hope to inspire our youth to be all they can be as a kind hearted well rounded individual, but also spark a change in how providers service all children in their care.</p>
-                  <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>I have my California Teacher Permit, Pediatric CPR & First aid certification, DSP1&2 certification, I have my Associates Degree in Child Development, Bachelor’s Degree in Human Development with the emphasis in Child Development and most importantly, I have over a decade experience in the child development field. I continue to attend training and seminars.</p>
               </div>
             </div>
           </div>
           <div className='w-full lg:w-1/2'>
-            <img className='w-full h-full object-cover object-left' src="images/seplaying1.jpg" alt="" />
+            <img className='w-full h-full object-cover object-left' src="images/seplaying2.jpg" alt="" />
           </div>
         </section>
         <section className='flex flex-col gap-6 lg:flex-row'>
