@@ -9,7 +9,10 @@ export default function AboutComponent() {
             <div className='h-full flex items-center'>
               <div className='text-center'>
                   <h2 className='text-5xl font-bold'>Our Story</h2>
-                  <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>It wasn’t until I became a mother that I realized not every place upholds high standards in regards to childcare and that is something that desperately needs to change. Our practices here at Learning Time Adventure not only hope to inspire our youth to be all they can be as a kind hearted well rounded individual, but also spark a change in how providers service all children in their care.</p>
+                  <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>The story of Learning Time Adventures begins with a dream. A mother ultimately decides that she needs to impact the community by starting her own home daycare. Yes, we're a small, ethical home daycare ready to take on a large childcare industry starting at home to make an impact for the greater good of our youth and future generations.</p>
+                  <p className='mx-auto pt-6 w-4/5 text-xl font-light italic leading-normal'>"It wasn't until I became a mother that I realized not every place upholds high standards in regards to childcare and that is something that desperately needs to change. Our practices here at Learning Time Adventure not only hope to inspire our youth to be all they can be as a kind hearted well rounded individual, but also spark a change in how providers service all children in their care."</p>
+                  <p className='mx-auto pt-0 w-4/5 text-xl text-right font-light leading-normal'>-Kimberly Quirarte</p>
+                  <p className='mx-auto pt-6 w-4/5 text-xl font-light leading-normal'>We're one of the few that is in this to make a difference. In a world where everything is constantly changing we are here to provide stability for the child and families we serve.</p>
               </div>
             </div>
           </div>
