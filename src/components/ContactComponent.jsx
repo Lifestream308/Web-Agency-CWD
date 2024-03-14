@@ -11,7 +11,7 @@ export default function ContactComponent() {
                             <h2 className='px-2 text-5xl font-bold'>Opening Hours</h2>
                             <p className='text-sm font-semibold lg:text-lg'>LearningTimeAdventures@gmail.com</p>
                             <p className='text-xl font-semibold'>(626)-391-0408</p>
-                            <p className='text-xl font-semibold'>Mon-Fri: 7:30am-4:30pm</p>
+                            <p className='text-xl font-semibold'>Mon-Fri: 8:00am-4:00pm</p>
                             <p className='text-xl font-semibold'>Sat-Sun: Closed</p>
                         </div>
                     </div>
