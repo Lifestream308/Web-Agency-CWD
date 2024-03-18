@@ -11,7 +11,7 @@ export default function ContactComponent() {
                             <h2 className='px-2 text-5xl font-bold'>Opening Hours</h2>
                             <p className='text-sm font-semibold lg:text-lg'>LearningTimeAdventures@gmail.com</p>
                             <p className='text-xl font-semibold'>(626)-391-0408</p>
-                            <p className='text-xl font-semibold'>Mon-Fri: 8:00am-4:00pm</p>
+                            <p className='text-xl font-semibold'>Mon-Fri: 8:30am-5:00pm</p>
                             <p className='text-xl font-semibold'>Sat-Sun: Closed</p>
                             <p className='text-xl font-semibold'>Conveniently located in West Covina</p>
                         </div>
@@ -27,8 +27,7 @@ export default function ContactComponent() {
                   <div className='text-center'>
                       <h2 className='text-5xl font-bold'>Enrollment</h2>
                       <h3 className='mt-6 italic text-2xl font-semibold'>Now Enrolling. Space is limited.</h3>
-                      <p className='mx-auto pt-6 w-4/5 text-xl'>Full-day 8:00am-4:00pm</p>
-                      <p className='mx-auto pt-3 w-4/5 text-xl'>Half-day 8:30am-12:30pm</p>
+                      <p className='mx-auto pt-6 w-4/5 text-xl'>Full-day 8:30am-5:00pm</p>
                       <p className='mx-auto pt-6 w-4/5 text-xl font-light'>Please let us know which program you are interested in applying for, what allergies your child has, and the current age of your child.</p>
                       <p className='mx-auto pt-3 w-4/5 text-xl font-light'>Thank you for your interest in our daycare.</p>
                       <p className='mx-auto pt-3 w-4/5 text-xl font-light'>We'll get back to you as soon as possible!</p>
