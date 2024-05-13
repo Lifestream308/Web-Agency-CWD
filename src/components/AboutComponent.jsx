@@ -11,8 +11,7 @@ export default function AboutComponent() {
                   <h2 className='text-5xl font-bold'>Our Story</h2>
                   <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>Learning Time Adventures begins with a dream, a dream of quality care, cultivating a safe environment that supports curiosity and provides daily adventures to stimulate the mind and sustain a foundation where children become lifelong learners in all aspects of their life. Yes, we're a small, ethical home daycare ready to take on a large childcare industry starting at home to make an impact for the greater good of our youth and future generations.</p>
                   <img className='w-28 h-28 mt-6 mx-auto object-cover object-top rounded-full' src="/images/teacher1.jpg" alt="" />
-                  <p className='mx-auto pt-2 w-4/5 text-xl font-light leading-normal'>Kimberly Quirarte, the founder of Learning Time Adventures, director of the program & mother of 2 ultimately decided that she felt the need to impact her  community by starting her own home child care.</p>
-                  <p className='mx-auto pt-6 w-4/5 text-xl font-light leading-normal'>Experiences have taught me that not only do I need to educate my own children but share our same principles to our community searching for quality care their families deserve.</p>
+                  <p className='mx-auto pt-2 w-4/5 text-xl font-light leading-normal'>Kimberly Quirarte, the founder of Learning Time Adventures, director of the program & mother of 2.</p>
               </div>
             </div>
           </div>
@@ -25,10 +24,11 @@ export default function AboutComponent() {
             <div className='h-full items-center flex text-blue-900'>
               <div className='text-center'>
                 <h2 className='text-5xl font-bold'>Our Mission</h2>
-                <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>Safety, kindness and education through self-guided interest  are our priorities. We understand our babies are future adults in training. Therefore, we believe we can instill a love for learning while having fun exploring the world around us.</p>
-                <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal italic'>“It wasn’t until I became a mother that I realized not every place upholds high standards in regards to childcare and that is something that desperately needs to change. Our practices here at Learning Time Adventure not only hope to inspire our youth to be all they can be as a kind hearted well rounded individual, but also spark a change in how providers service all children in their care.</p>
+                <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>Safety, emotional well-being, and education is our priority. We understand the importance of learning through play and all the benefits it provides for early childhood development therefore, we believe we can instill a love for learning, while having fun exploring the world around us.</p>
+                <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>Experiences have taught me that education looks different for every child. Their mind is constantly being molded through experiences, and it all starts with the first years of early childhood. Our mission is to provide quality care, respect, kindness, and support that children deserve so they can ask more questions, feed their curiosity of the world and aquire critical thinking for themselves to learn how to analyze their surroundings and draw their own conclusions. We will support each child paving their path towards success as we contribute to their foundation.</p>
+                {/* <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal italic'>“It wasn’t until I became a mother that I realized not every place upholds high standards in regards to childcare and that is something that desperately needs to change. Our practices here at Learning Time Adventure not only hope to inspire our youth to be all they can be as a kind hearted well rounded individual, but also spark a change in how providers service all children in their care.</p>
                 <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal italic'>We're one of the few that is in this to make a difference. In a world where everything is constantly changing we are here to provide stability for the child and families we serve.”</p>
-                <p className='mx-auto pt-4 w-4/5 text-right text-xl font-light leading-normal'>-Kimberly Quirarte</p>
+                <p className='mx-auto pt-4 w-4/5 text-right text-xl font-light leading-normal'>-Kimberly Quirarte</p> */}
               </div>
             </div>
           </div>
