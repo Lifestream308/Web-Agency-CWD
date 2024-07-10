@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import './navbar.css'
+import './hamburgerAnimations.css'
 
 export default function HamburgerComponent() {
 
