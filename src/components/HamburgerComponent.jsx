@@ -7,18 +7,15 @@ export default function HamburgerComponent() {
 
     // to change burger classes
     const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
-    const [menu_class, setMenuClass] = useState("menu hiden")
     const [isMenuClicked, setIsMenuClicked] = useState(false)
 
     // toggle burger menu change
     const updateMenu = () => {
         if(!isMenuClicked) {
             setBurgerClass("burger-bar clicked")
-            setMenuClass("menu visibl")
         }
         else {
             setBurgerClass("burger-bar unclicked")
-            setMenuClass("menu hiden")
         }
         setIsMenuClicked(!isMenuClicked)
     }
@@ -33,7 +30,7 @@ export default function HamburgerComponent() {
                     <div className={burger_class + ' h-2 rounded-lg bg-blue-800'} ></div>
                 </div>
             </nav>
-            <div className={menu_class + ' absolute flex justify-center h-72 bg-white top-32 right-0 rounded-bl-lg z-10 transition-all ease-in duration-200 overflow-hidden'}>
+            <div className={(isMenuClicked? 'w-[14rem] opacity-100' : 'w-0 opacity-0') + ' absolute flex justify-center h-72 bg-white top-32 right-0 rounded-bl-lg z-10 transition-all ease-in duration-200 overflow-hidden'}>
                 <nav className='pt-6 flex flex-col gap-2 text-center'>
                     <Link to='/' className='px-4 py-2 text-2xl font-bold text-blue-800 hover:bg-gray-200 rounded-lg'>Home</Link>
                     <Link to='/about' className='px-4 py-2 text-2xl font-bold text-blue-800 hover:bg-gray-200 rounded-lg' href="">About</Link>
