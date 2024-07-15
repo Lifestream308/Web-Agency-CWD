@@ -47,8 +47,8 @@ export default function MainSectionsComponent() {
                 <img className='w-full h-full object-cover' src="images/bookreading1.jpg" alt="" />
               </div>
             </section>
-            <section className='flex flex-col gap-6 md:flex-row'>
-              <div className='py-10 w-full bg-gradient-to-b from-blue-50 via-blue-50 to-blue-200 md:w-1/2 md:py-4'>
+            <section className='flex flex-col gap-6 lg:flex-row'>
+              <div className='py-10 w-full bg-gradient-to-b from-blue-50 via-blue-50 to-blue-200 lg:w-1/2 lg:py-4'>
                 <div className='h-full flex items-center text-blue-900'>
                   <div className='text-center'>
                       <h2 className='text-5xl font-bold'>Our Curriculum</h2>
@@ -57,7 +57,7 @@ export default function MainSectionsComponent() {
                   </div>
                 </div>
               </div>
-              <div className='w-full md:w-1/2'>
+              <div className='w-full lg:w-1/2'>
                 <img className='w-full h-full object-cover' src="images/stocksmall3.jpg" alt="" />
               </div>
             </section>
