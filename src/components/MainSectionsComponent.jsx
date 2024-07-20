@@ -1,5 +1,6 @@
 import React from 'react'
 import BGColorSectionComponent from './BGColorSectionComponent'
+import { Link } from 'react-router-dom'
 
 export default function MainSectionsComponent() {
   return (
@@ -9,8 +10,9 @@ export default function MainSectionsComponent() {
             <section className='relative w-full h-auto'>
               <img className='w-full h-auto' src="images/pexels1.jpg" alt="Picture of a classroom" />
               <div className='absolute inset-0 bg-black opacity-20'></div>
-              <div className='absolute flex justify-center text-center top-[14%]'>
+              <div className='absolute flex flex-col items-center text-center top-[14%]'>
                 <h2 className='w-4/5 font-bold text-white text-3xl leading-tight sm:text-5xl lg:text-7xl'>Welcome to Learning Time Adventures Daycare</h2>
+                <Link to='/contact' className='px-4 py-2 mt-16 w-fit text-2xl font-bold bg-blue-700 text-white hover:bg-blue-600 shadow-lg rounded-lg' href="">Contact Us</Link>
               </div>
             </section>
             <section className='flex flex-col gap-6 lg:flex-row'>
