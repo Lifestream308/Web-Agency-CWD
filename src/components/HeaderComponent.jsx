@@ -8,7 +8,7 @@ export default function HeaderComponent() {
         <header className='flex justify-between items-center'>
           <div className='flex items-center'>
             <Link to='/' className=''>
-              <img className='w-36 min-w-32 h-auto' src="images/logo2.png" alt="Company Tree Logo" />
+              <img className='w-28 min-w-28 h-auto sm:w-32' src="images/logo2.png" alt="Company Tree Logo" />
             </Link>
             <h1 className='text-2xl font-bold hidden text-blue-700 md:block xl:text-3xl'>Learning Time Adventures Daycare</h1>
           </div>
