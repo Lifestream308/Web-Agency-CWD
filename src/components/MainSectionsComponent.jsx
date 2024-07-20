@@ -11,8 +11,8 @@ export default function MainSectionsComponent() {
               <img className='w-full h-auto' src="images/pexels1.jpg" alt="Picture of a classroom" />
               <div className='absolute inset-0 bg-black opacity-20'></div>
               <div className='absolute w-full flex flex-col items-center text-center top-[14%]'>
-                <h2 className='w-4/5 font-bold text-white text-2xl leading-tight sm:text-5xl lg:text-7xl'>Welcome to Learning Time Adventures Daycare</h2>
-                <Link to='/contact' className='px-2 py-1 mt-10 w-fit text-lg font-bold bg-blue-700 text-white hover:bg-blue-600 shadow-lg rounded-lg' href="">Contact Us</Link>
+                <h2 className='w-4/5 font-bold text-white text-2xl leading-tight sm:text-4xl md:text-5xl lg:text-6xl lg:w-3/4'>Welcome to Learning Time Adventures Daycare</h2>
+                <Link to='/contact' className='px-2 py-1 mt-10 w-fit text-lg font-bold bg-blue-700 text-white hover:bg-blue-600 shadow-sm shadow-neutral-600 rounded-lg sm:px-4 sm:py-2 sm:text-2xl md:mt-28' href="">Contact Us</Link>
               </div>
             </section>
             <section className='flex flex-col gap-6 lg:flex-row'>
