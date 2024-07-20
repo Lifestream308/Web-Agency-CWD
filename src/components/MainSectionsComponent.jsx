@@ -22,28 +22,6 @@ export default function MainSectionsComponent() {
                     <h2 className='text-5xl text-center font-bold'>About Us</h2>
                     <p className='mx-auto text-center pt-4 w-4/5 text-xl font-light leading-normal'>We are a licensed CDSS home daycare. Dedicated to providing quality care for all children we serve. We focus on assisting every student in their milestone development. 
                     </p>
-                    {/* <div className="py-4 ml-[10%] flex gap-4">
-                      <ul>
-                        <li>-Phonics/Lanuage</li>
-                        <li>-Sensory</li>
-                        <li>-Intro to Spanish</li>
-                        <li>-Intro to Chinese</li>
-                        <li>-Emotional Awareness Development</li>
-                      </ul>
-                      <ul>
-                        <li>-Math Concepts</li>
-                        <li>-Music & Dance</li>
-                        <li>-Science</li>
-                        <li>-Art</li>
-                      </ul>
-                    </div> */}
-                    {/* <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>We also offer 8-hour day care. (full time/ part-time)
-                    </p>
-                    <ul className='ml-[10%] w-fit'>
-                      <li>-Potty-training</li>
-                      <li>-Indoor/outdoor environment</li>
-                      <li>-Breakfast, hot lunch, am/pm snacks</li>
-                    </ul> */}
                   </div>
                 </div>
               </div>
