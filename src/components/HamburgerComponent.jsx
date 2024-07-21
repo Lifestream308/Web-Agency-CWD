@@ -13,7 +13,7 @@ export default function HamburgerComponent() {
         setMenuIsOpen(!menuIsOpen)
     }
 
-    const handleClickOutside = (event) => {
+    const outsideClickClosesMenu = (event) => {
         if (menuRef.current && !menuRef.current.contains(event.target)) {
           setMenuIsOpen(false);
         }
@@ -21,12 +21,12 @@ export default function HamburgerComponent() {
 
       useEffect(() => {
         if (menuIsOpen) {
-          document.addEventListener('mousedown', handleClickOutside);
+          document.addEventListener('mousedown', outsideClickClosesMenu);
         } else {
-          document.removeEventListener('mousedown', handleClickOutside);
+          document.removeEventListener('mousedown', outsideClickClosesMenu);
         }
         return () => {
-          document.removeEventListener('mousedown', handleClickOutside);
+          document.removeEventListener('mousedown', outsideClickClosesMenu);
         }
       }, [menuIsOpen])
 
