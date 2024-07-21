@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './hamburgerAnimations.css'
 
@@ -7,14 +7,32 @@ export default function HamburgerComponent() {
 
     // mobile navigation menu opens and closes when hamburger button is pressed
     const [menuIsOpen, setMenuIsOpen] = useState(false)
+    const menuRef = useRef(null);
 
     const toggleMenu = () => {
         setMenuIsOpen(!menuIsOpen)
     }
 
+    const handleClickOutside = (event) => {
+        if (menuRef.current && !menuRef.current.contains(event.target)) {
+          setMenuIsOpen(false);
+        }
+      }
+
+      useEffect(() => {
+        if (menuIsOpen) {
+          document.addEventListener('mousedown', handleClickOutside);
+        } else {
+          document.removeEventListener('mousedown', handleClickOutside);
+        }
+        return () => {
+          document.removeEventListener('mousedown', handleClickOutside);
+        }
+      }, [menuIsOpen])
+
   return (
     <>
-        <div className='flex lg:hidden'>
+        <div ref={menuRef} className='flex lg:hidden'>
             <nav className='h-20 p-4'>
                 <div className='h-full w-16 flex flex-col justify-between cursor-pointer' onClick={toggleMenu}>
                     <div className={(menuIsOpen? 'hamburgerCrossed' : 'hamburgerStacked') + ' h-2 rounded-lg bg-blue-800'} ></div>
