@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export default function MainSectionsComponent() {
   return (
     <>
-      <div className='mt-8 flex flex-col gap-8 px-[6%]'>
+      <div className='mt-2 flex flex-col gap-8 px-[6%]'>
           <main className='flex flex-col gap-6 justify-center md:gap-16'>
             <section className='relative w-full h-auto'>
               <img className='w-full h-auto' src="images/pexels1.jpg" alt="Picture of a classroom" />

@@ -4,7 +4,7 @@ import HamburgerComponent from './HamburgerComponent'
 
 export default function HeaderComponent() {
   return (
-    <div className='mt-8 flex flex-col gap-8 px-[6%]'>
+    <div className='mt-2 flex flex-col gap-8 px-[6%]'>
         <header className='flex justify-between items-center'>
           <div className='flex items-center'>
             <Link to='/' className=''>
