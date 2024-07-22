@@ -44,7 +44,7 @@ export default function HamburgerComponent() {
                 <nav className='pt-6 flex flex-col gap-2 text-center'>
                     <Link to='/' className='px-4 py-2 text-2xl font-bold text-blue-800 hover:bg-gray-200 rounded-lg'>Home</Link>
                     <Link to='/about' className='px-4 py-2 text-2xl font-bold text-blue-800 hover:bg-gray-200 rounded-lg' href="">About</Link>
-                    <Link to='/contact' className='px-4 py-2 text-2xl font-bold text-blue-800 underline underline-offset-8 hover:bg-gray-200 rounded-lg' href="">Contact</Link>
+                    <Link to='/contact' className='px-4 py-2 text-2xl font-bold text-white bg-blue-700 hover:bg-blue-600 rounded-lg shadow-md shadow-gray-800' href="">Contact</Link>
                 </nav>
             </div>
         </div>
