@@ -9,10 +9,13 @@ export default function MainSectionsComponent() {
           <main className='flex flex-col gap-6 justify-center md:gap-16'>
             <section className='relative w-full h-auto'>
               <img className='w-full h-auto' src="images/pexels1.jpg" alt="Picture of a classroom" />
-              <div className='absolute inset-0 bg-black opacity-20'></div>
-              <div className='absolute w-full flex flex-col items-center text-center top-[14%]'>
-                <h2 className='w-4/5 font-bold text-white text-2xl leading-tight sm:text-4xl md:text-5xl lg:text-6xl lg:w-3/4'>Welcome to Learning Time Adventures Daycare</h2>
-                <Link to='/contact' className='px-2 py-1 mt-10 w-fit text-lg font-bold bg-blue-700 text-white hover:bg-blue-600 shadow-sm shadow-neutral-600 rounded-lg sm:px-4 sm:py-2 sm:text-2xl md:mt-28' href="">Contact Us</Link>
+              <div className='absolute inset-0 w-7/10 bg-gradient-to-r from-gray-900/90 to-gray-500/5'></div>
+              <div className='absolute w-full flex flex-col top-[14%] left-[1rem]'>
+                <h2 className='font-bold text-white text-xl sm:text-4xl md:text-5xl lg:text-6xl lg:w-3/4'>Safe. Reliable. Fun!</h2>
+                <h2 className='text-white text-xl underline underline-offset-4 sm:text-4xl md:text-5xl lg:text-6xl lg:w-3/4'>Learning Time Adventures</h2>
+                <h2 className='font-extralight text-gray-300 text-sm sm:text-lg'>Licensed Daycare</h2>
+                {/* <h2 className='w-4/5 font-bold text-white text-2xl leading-tight sm:text-4xl md:text-5xl lg:text-6xl lg:w-3/4'>Welcome to Learning Time Adventures Daycare</h2> */}
+                <Link to='/contact' className='px-2 py-1 mt-5 w-fit text-md font-bold bg-gradient-to-r from-blue-700 to-blue-500 text-white hover:shadow-xl shadow-sm shadow-neutral-600 rounded-lg sm:px-4 sm:py-2 sm:text-2xl md:mt-28' href="">Contact Us</Link>
               </div>
             </section>
             <section className='flex flex-col gap-6 lg:flex-row'>
