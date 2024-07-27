@@ -14,14 +14,14 @@ export default function MainSectionsComponent() {
             <section className='relative w-full h-auto'>
               <img className='w-full h-auto' src="images/pexels1.jpg" alt="Picture of a classroom" />
               <div className='absolute inset-0 w-7/10 bg-gradient-to-r from-gray-900/90 to-gray-500/5'></div>
-              <div className='absolute w-full flex flex-col top-[14%] left-4 sm:left-6 md:top-[20%] md:left-8'>
-                <h3 className='font-bold text-white text-2xl sm:text-4xl md:text-4xl lg:text-5xl'>Safe.</h3>
-                <h3 className='font-bold text-white text-2xl sm:text-4xl md:text-4xl lg:text-5xl'>Reliable.</h3>
-                <h3 className='font-bold text-white text-2xl sm:text-4xl md:text-4xl lg:text-5xl'>Fun!</h3>
+              <div className='absolute w-full flex flex-col top-[14%] left-[7%] sm:left-6 md:top-[20%] md:left-8'>
+                <h3 className='font-bold text-white text-3xl sm:text-4xl md:text-4xl lg:text-5xl'>Safe.</h3>
+                <h3 className='font-bold text-white text-3xl sm:text-4xl md:text-4xl lg:text-5xl'>Reliable.</h3>
+                <h3 className='font-bold text-white text-3xl sm:text-4xl md:text-4xl lg:text-5xl'>Fun!</h3>
                 {/* <h2 className='text-white text-2xl underline underline-offset-4 sm:text-4xl md:mt-4 md:text-4xl lg:text-5xl'>Learning Time Adventures</h2> */}
                 {/* <h2 className='font-extralight text-gray-300 text-base sm:text-lg md:mt-2'>Licensed Daycare</h2> */}
                 {/* <h2 className='w-4/5 font-bold text-white text-2xl leading-tight sm:text-4xl md:text-5xl lg:text-6xl lg:w-3/4'>Welcome to Learning Time Adventures Daycare</h2> */}
-                <Link to='/contact' className='px-2 py-1 mt-5 w-fit text-base font-bold bg-gradient-to-r from-blue-700 to-blue-500 text-white hover:shadow-xl hover:text-gray-200 shadow-sm shadow-neutral-600 rounded-lg sm:px-4 sm:py-2 sm:text-xl sm:mt-8 md:mt-10 lg:mt-12' href="">Contact Us</Link>
+                <Link to='/contact' className='px-2 py-1 mt-4 w-fit text-lg font-bold bg-gradient-to-r from-blue-700 to-blue-500 text-white hover:shadow-xl hover:text-gray-200 shadow-sm shadow-neutral-600 rounded-lg sm:px-4 sm:py-2 sm:text-xl sm:mt-8 md:mt-10 lg:mt-12' href="">Contact Us</Link>
               </div>
             </section>
             <section className='flex flex-col gap-6 lg:flex-row'>
