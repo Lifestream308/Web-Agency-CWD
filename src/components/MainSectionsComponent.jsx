@@ -14,10 +14,11 @@ export default function MainSectionsComponent() {
             <section className='relative w-full h-auto'>
               <img className='w-full h-auto' src="images/pexels1.jpg" alt="Picture of a classroom" />
               <div className='absolute inset-0 w-7/10 bg-gradient-to-r from-gray-900/90 to-gray-500/5'></div>
-              <div className='absolute w-full flex flex-col top-[10%] left-[7%] sm:left-6 sm:top-[15%] md:top-[20%] md:left-8'>
-                <h3 className='w-3/5 font-bold text-white text-3xl sm:text-5xl md:text-6xl lg:text-7xl'>A place to learn, play, and grow.</h3>
+              <div className='absolute w-full flex flex-col top-[20%] left-[7%] sm:left-6 md:left-8'>
+                <h3 className='font-bold text-white text-2xl sm:text-5xl md:text-6xl lg:text-7xl'>A place to learn,</h3>
+                <h3 className='font-bold text-white text-2xl sm:text-5xl md:text-6xl lg:text-7xl'>play, and grow.</h3>
                 {/* <h2 className='w-4/5 font-bold text-white text-2xl leading-tight sm:text-4xl md:text-5xl lg:text-6xl lg:w-3/4'>Welcome to Learning Time Adventures Daycare</h2> */}
-                <Link to='/contact' className='px-2 py-1 mt-6 w-fit text-lg font-bold bg-gradient-to-r from-blue-700 to-blue-500 text-white hover:shadow-xl hover:text-gray-200 shadow-sm shadow-neutral-600 rounded-lg sm:px-4 sm:py-2 sm:text-xl sm:mt-8 md:mt-10 lg:mt-12' href="">Contact Us</Link>
+                <Link to='/contact' className='px-2 py-1 mt-6 w-fit text-base font-bold bg-gradient-to-r from-blue-700 to-blue-500 text-white hover:shadow-xl hover:text-gray-200 shadow-sm shadow-neutral-600 rounded-lg sm:px-4 sm:py-2 sm:text-xl md:text-2xl sm:mt-8 md:mt-10 lg:mt-12' href="">Contact Us</Link>
               </div>
             </section>
             <section className='flex flex-col gap-6 lg:flex-row'>
