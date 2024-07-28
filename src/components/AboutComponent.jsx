@@ -1,4 +1,5 @@
 import React from 'react'
+// import SlideshowComponent from './SlideshowComponent.jsx'
 
 export default function AboutComponent() {
   return (
@@ -36,6 +37,14 @@ export default function AboutComponent() {
             <img className='w-full h-full object-cover' src="images/bookreading2.jpg" alt="" />
           </div>
         </section>
+
+
+        {/* <div className="w-full flex flex-col items-center justify-center bg-gray-100">
+          <h1 className="text-2xl font-bold mb-8">My Slideshow</h1>
+          <SlideshowComponent interval={5000} />
+        </div> */}
+
+
         {/* <section className='text-center'>
           <h2 className='text-5xl font-bold'>Our Team</h2>
           <h3 className='pt-6 text-xl font-semibold'>Caring & Dedicated</h3>
