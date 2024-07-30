@@ -1,4 +1,3 @@
-// import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import FooterComponent from './components/FooterComponent'
 import HeaderComponent from './components/HeaderComponent'
@@ -7,7 +6,6 @@ import AboutComponent from './components/AboutComponent'
 import ContactComponent from './components/ContactComponent'
 
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
     <>
