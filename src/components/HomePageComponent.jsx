@@ -2,7 +2,7 @@ import React from 'react'
 import BGColorSectionComponent from './BGColorSectionComponent'
 import { Link } from 'react-router-dom'
 
-export default function MainSectionsComponent() {
+export default function HomePageComponent() {
   return (
     <>
       <div className='mt-2 flex flex-col gap-8 px-[6%]'>
