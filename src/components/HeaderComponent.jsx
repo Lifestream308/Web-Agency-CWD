@@ -11,8 +11,8 @@ export default function HeaderComponent() {
               <img className='w-28 min-w-28 h-auto sm:w-32' src="images/logo2.png" alt="Company Tree Logo" />
             </Link>
             <div className='ml-4 hidden md:block'>
-              <h1 className='text-2xl font-bold text-blue-700 xl:text-3xl'>Learning Time Adventures</h1>
-              <h2 className='font-extralight text-gray-600 text-base'>Licensed Daycare</h2>
+              <h1 className='text-2xl font-bold text-blue-700 xl:text-3xl'>Set Company Name</h1>
+              <h2 className='font-extralight text-gray-600 text-base'>Set Short Subtext</h2>
             </div>
           </div>
           <nav className='hidden flex-wrap items-center lg:flex'>
