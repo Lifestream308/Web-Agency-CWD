@@ -7,8 +7,8 @@ export default function HomePageComponent() {
       <div className='mt-2 flex flex-col gap-8 px-[6%]'>
           <main className='flex flex-col gap-6 justify-center md:gap-16'>
             <div className='mt-2 text-center md:hidden'>
-              <h1 className='text-2xl font-bold text-blue-700 md:hidden'>Set Company Name</h1>
-              <h2 className='font-extralight text-gray-600 text-base'>Short Subtext</h2>
+              <h1 className='text-2xl font-bold text-blue-700 md:hidden'>Claremont Web Designs</h1>
+              <h2 className='font-extralight text-gray-600 text-base'>Web Agency</h2>
             </div>
             <section className='relative w-full h-auto'>
               <img className='w-full h-auto' src="images/pexels1.jpg" alt="Picture of a classroom" />
