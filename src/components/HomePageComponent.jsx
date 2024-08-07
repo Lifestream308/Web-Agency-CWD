@@ -6,7 +6,6 @@ export default function HomePageComponent() {
     <>
       <div className='mt-2 flex flex-col gap-8 px-[6%]'>
           <main className='flex flex-col gap-6 justify-center items-center md:gap-16'>
-            {/* bg-orange-400/20 is pretty good. Check other combos. */}
             <section className='min-w-[100vw] flex justify-center bg-orange-100/95'>
               <div className='px-[8rem] py-[5rem] max-w-[1500px] flex justify-center'>
                 <div className='w-1/2 flex flex-col justify-center'>

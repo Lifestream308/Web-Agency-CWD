@@ -1,8 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import HamburgerComponent from './HamburgerComponent'
 
 export default function HeaderComponent() {
+  const location = useLocation()
+
   return (
     <div className='mt-2 flex flex-col gap-8 px-[6%]'>
         <header className='flex justify-between items-center'>
@@ -16,9 +18,9 @@ export default function HeaderComponent() {
             </div>
           </div>
           <nav className='hidden flex-wrap items-center lg:flex'>
-            <Link to='/' className='px-4 py-2 text-xl font-light text-gray-800 hover:underline underline-offset-8'>Home</Link>
-            <Link to='/about' className='px-4 py-2 text-xl font-light text-gray-800 hover:underline underline-offset-8' href="">About</Link>
-            <Link to='/contact' className='px-4 py-2 text-xl font-light text-gray-800 hover:underline underline-offset-8' href="">Contact Us</Link>
+            <Link to='/' className={(location.pathname === '/' ? 'underline' : '') + ' px-4 py-2 text-xl font-light text-gray-800 hover:underline underline-offset-8'}>Home</Link>
+            <Link to='/about' className={(location.pathname === '/about' ? 'underline' : '') + ' px-4 py-2 text-xl font-light text-gray-800 hover:underline underline-offset-8'}>About</Link>
+            <Link to='/contact' className={(location.pathname === '/contact' ? 'underline' : '') + ' px-4 py-2 text-xl font-light text-gray-800 hover:underline underline-offset-8'}>Contact Us</Link>
           </nav>
           <HamburgerComponent />
         </header>
