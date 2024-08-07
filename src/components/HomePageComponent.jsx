@@ -6,8 +6,8 @@ export default function HomePageComponent() {
     <>
       <div className='mt-2 flex flex-col gap-8 px-[6%]'>
           <main className='flex flex-col gap-6 justify-center items-center md:gap-16'>
-            <section className='min-w-[100vw] flex justify-center bg-red-400'>
-              <div className='py-[5rem] max-w-[1500px] flex justify-center'>
+            <section className='min-w-[100vw] flex justify-center bg-red-400/80'>
+              <div className='px-[3rem] py-[5rem] max-w-[1500px] flex justify-center'>
                 <div className='w-1/2 flex flex-col justify-center'>
                   <h3 className='font-bold text-gray-800 text-2xl sm:text-4xl md:text-5xl lg:text-6xl'>Boosting Local Businesses With Custom Websites</h3>
                   <h3 className='mt-3 hidden font-extralight text-neutral-600 text-base sm:block md:text-lg lg:text-2xl'>Affordable Websites To Show Off Your Business</h3>
