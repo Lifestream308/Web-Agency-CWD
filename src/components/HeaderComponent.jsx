@@ -16,9 +16,9 @@ export default function HeaderComponent() {
             </div>
           </div>
           <nav className='hidden flex-wrap items-center lg:flex'>
-            <Link to='/' className='px-4 py-2 text-xl font-light text-blue-800 hover:underline'>Home</Link>
-            <Link to='/about' className='px-4 py-2 text-xl font-light text-blue-800 hover:underline' href="">About</Link>
-            <Link to='/contact' className='px-2 py-1 w-fit text-md font-bold bg-gradient-to-r from-blue-700 to-blue-500 text-white hover:shadow-md hover:text-gray-200 shadow-sm shadow-neutral-600 rounded-lg' href="">Contact Us</Link>
+            <Link to='/' className='px-4 py-2 text-xl font-light text-gray-800 hover:underline underline-offset-8'>Home</Link>
+            <Link to='/about' className='px-4 py-2 text-xl font-light text-gray-800 hover:underline underline-offset-8' href="">About</Link>
+            <Link to='/contact' className='px-4 py-2 text-xl font-light text-gray-800 hover:underline underline-offset-8' href="">Contact Us</Link>
           </nav>
           <HamburgerComponent />
         </header>
