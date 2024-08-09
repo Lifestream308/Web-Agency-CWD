@@ -14,7 +14,7 @@ export default function HeaderComponent() {
             </Link>
             <div className='ml-4 hidden md:block'>
               <h1 className='text-2xl font-bold text-gray-900 xl:text-3xl'>Claremont Web Designs</h1>
-              <h2 className='font-extralight text-gray-600 text-base'>Web Agency</h2>
+              {/* <h2 className='font-extralight text-gray-600 text-base'>Web Agency</h2> */}
             </div>
           </div>
           <nav className='hidden flex-wrap items-center lg:flex'>

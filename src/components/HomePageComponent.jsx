@@ -18,6 +18,28 @@ export default function HomePageComponent() {
                 </div>
               </div>
             </section>
+            <section>
+              <h2 className='text-6xl text-center'>Stand Out From The Competition</h2>
+              <h3 className='text-2xl text-center'>Why do I need a website?</h3>
+              <div className='mt-16 flex gap-16 justify-end'>
+                <div>
+                  <h3>Be Seen.</h3>
+                  <p>Show off your website in places like a Google Business Profile. Not many businesses have a real website so when customers see that you do have one that is going to make you stand out.</p>
+                </div>
+                <div>
+                  <h3>Be Trusted.</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nostrum magnam mollitia incidunt nesciunt hic sed impedit voluptatem, vero omnis explicabo, ut exercitationem accusantium perferendis!</p>
+                </div>
+                <div>
+                  <h3>Be Heard.</h3>
+                  <p>What are your services? Who do you sell to? A professional website will answer these questions for potential customers and let them know that you are the one they're looking for.</p>
+                </div>
+              </div>
+            </section>
+            <section>
+              <h2 className='text-6xl text-center'>Service</h2>
+              <h3 className='text-2xl text-center'>What do I get?</h3>
+            </section>
           </main>
       </div>
     </>
