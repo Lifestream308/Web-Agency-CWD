@@ -7,8 +7,17 @@ export default function FooterComponent() {
   return (
     <>
         <footer className='mt-14 mb-16 flex flex-wrap gap-8 text-gray-900 justify-around items-center'>
-          <div className='flex flex-col-reverse gap-2'>
-            <h3>setEmail@gmail.com</h3>
+          <div className='flex flex-col gap-2'>
+            {/* <h3>setEmail@gmail.com</h3> */}
+            <div className='flex items-center'>
+            <Link to='/' className=''>
+              <img className='w-28 min-w-28 h-auto sm:w-32' src="images/logo2.png" alt="Company Tree Logo" />
+            </Link>
+            <div className='ml-4 hidden md:block'>
+              <h1 className='text-2xl font-bold text-gray-900 xl:text-3xl'>Claremont Web Designs</h1>
+              {/* <h2 className='font-extralight text-gray-600 text-base'>Web Agency</h2> */}
+            </div>
+          </div>
             <small>©{new Date().getFullYear()} by Claremont Web Designs</small>
           </div>
           <nav className='flex flex-wrap justify-center items-center'>
