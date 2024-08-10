@@ -6,10 +6,10 @@ export default function FooterComponent() {
 
   return (
     <>
-        <footer className='mt-14 mb-16 flex flex-wrap gap-8 text-gray-900 justify-around items-center'>
-          <div className='flex flex-col gap-2'>
+        <footer className='mt-14 mb-16 flex flex-col-reverse gap-8 text-gray-900 justify-around items-center'>
+          <div className='flex flex-col items-center gap-2'>
             {/* <h3>setEmail@gmail.com</h3> */}
-            <div className='flex items-center'>
+            <div className='flex flex-col justify-center items-center'>
             <Link to='/' className=''>
               <img className='w-28 min-w-28 h-auto sm:w-32' src="images/logo2.png" alt="Company Tree Logo" />
             </Link>
