@@ -20,8 +20,8 @@ export default function HomePageComponent() {
             </section>
             <section>
               <div className='flex flex-col items-center'>
-                <h2 className='px-4 py-6 max-w-2xl text-6xl text-center text-gray-700 bg-blue-300 rounded-lg shadow-md shadow-gray-500'>Stand Out From The Competition</h2>
-                {/* <h3 className='mt-8 text-3xl text-gray-500 text-center'>Why do I need a website?</h3> */}
+                <h2 className='px-4 py-6 text-4xl text-center text-gray-700'>Stand <span className='py-5 px-2 text-white bg-gray-700 shadow-md shadow-cyan-700 rounded-full'>Out</span> From The Competition</h2>
+                <p className='mt-10 max-w-4xl text-2xl text-gray-500 text-center'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus pariatur dignissimos corporis, aut dolor magni quaerat dolorum reiciendis! Consectetur, deleniti!</p>
               </div>
               <div className='mt-16 flex gap-16 justify-end'>
                 <div className='flex flex-col gap-5'>
@@ -47,7 +47,7 @@ export default function HomePageComponent() {
                 </div>
               </div>
             </section>
-            <section>
+            <section className='mt-20'>
               <h2 className='text-6xl text-center'>Service</h2>
               <h3 className='text-2xl text-center'>What do I get?</h3>
             </section>
