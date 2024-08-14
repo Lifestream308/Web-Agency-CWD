@@ -47,9 +47,11 @@ export default function HomePageComponent() {
                 </div>
               </div>
             </section>
-            <section className='mt-20'>
-              <h2 className='text-6xl text-center'>Service</h2>
-              <h3 className='text-2xl text-center'>What do I get?</h3>
+            <section className='mt-20 flex flex-col gap-6 items-center text-gray-700'>
+              <h3 className='text-4xl'>$0 Down, Only $80 A Month</h3>
+              {/* <h3 className='text-4xl'>6 Month Minimum</h3> */}
+              <h3 className='text-2xl text-gray-500'>For only $80 a month you get a standard 3-5 page small business website to showcase your services. If you need something a little different we can do a free consultation to explore solutions and discuss pricing.</h3>
+              <h3 className='text-2xl text-gray-500'>You own your domain and content. Cancel anytime after 6 months. No cancellation fees. No hassle.</h3>
             </section>
           </main>
       </div>
