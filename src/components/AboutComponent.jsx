@@ -14,7 +14,9 @@ export default function AboutComponent() {
           <div className='p-4 w-1/2'>
             <img className='rounded-lg' src="images/pexels1.jpg" alt="" />
           </div>
-          <div className='p-4 w-1/2'>
+          <div className='p-4 w-1/2 flex flex-col gap-10'>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero est quos dolorem quaerat voluptates in repudiandae cupiditate atque perspiciatis accusamus nihil ex eligendi eum, reiciendis illum at blanditiis aspernatur? Libero!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero est quos dolorem quaerat voluptates in repudiandae cupiditate atque perspiciatis accusamus nihil ex eligendi eum, reiciendis illum at blanditiis aspernatur? Libero!</p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero est quos dolorem quaerat voluptates in repudiandae cupiditate atque perspiciatis accusamus nihil ex eligendi eum, reiciendis illum at blanditiis aspernatur? Libero!</p>
           </div>
         </div>
