@@ -20,7 +20,7 @@ export default function HomePageComponent() {
             </section>
             <section>
               <div className='flex flex-col items-center'>
-                <h2 className='px-4 py-6 text-4xl text-center text-gray-700'>Stand <span className='py-5 px-2 text-white bg-gray-700 shadow-md shadow-orange-400 rounded-full'>Out</span> From The Competition</h2>
+                <h2 className='px-4 py-6 text-4xl text-center text-gray-700'>Stand <span className='py-5 px-2 text-white bg-gray-700 shadow-md shadow-gray-500 rounded-full'>Out</span> From The Competition</h2>
                 <p className='mt-10 max-w-4xl text-2xl text-gray-500 text-center'>Your website will improve your visibility, elevate your brand's status, and guide customers through your services.</p>
               </div>
               <div className='mt-16 flex gap-16 justify-end'>
@@ -47,11 +47,17 @@ export default function HomePageComponent() {
                 </div>
               </div>
             </section>
-            <section className='mt-20 flex flex-col gap-6 items-center text-gray-700'>
-              <h3 className='text-4xl'>$0 Down, Only $80 A Month</h3>
-              {/* <h3 className='text-4xl'>6 Month Minimum</h3> */}
-              <h3 className='text-2xl text-gray-500'>For only $80 a month you get a standard 3-5 page small business website to showcase your services. If you need something a little different we can do a free consultation to explore solutions and discuss pricing.</h3>
-              <h3 className='text-2xl text-gray-500'>You own your domain and content. Cancel anytime after 6 months. No cancellation fees. No hassle.</h3>
+            <section className='mt-20 flex gap-12 justify-center items-center text-gray-700'>
+              <div className='max-w-md h-auto'>
+                <img className='rounded-lg' src="images/payment2.webp" alt="" />
+              </div>
+              <div className='flex flex-col gap-10'>
+                <h3 className='text-4xl'>$0 Down, Only $80 A Month</h3>
+                <div className='max-w-2xl flex flex-col gap-5'>
+                  <p className='text-2xl text-gray-500'>For only $80 a month you get a standard 3-5 page small business website to showcase your services. If you need something a little different we can do a free consultation to explore solutions and discuss pricing.</p>
+                  <p className='text-2xl text-gray-500'>You own your domain and content. Cancel anytime after 6 months. No cancellation fees. No hassle.</p>
+                </div>
+              </div>
             </section>
           </main>
       </div>
