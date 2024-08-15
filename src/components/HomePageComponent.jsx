@@ -52,7 +52,7 @@ export default function HomePageComponent() {
                 <img className='w-full h-auto rounded-lg shadow-md shadow-gray-800' src="images/payment2.webp" alt="" />
               </div>
               <div className='flex flex-col gap-10'>
-                <h3 className='text-4xl'>$0 Down, Only $80 A Month</h3>
+                <h3 className='text-4xl font-bold'>$0 Down, Only $80 A Month</h3>
                 <div className='max-w-2xl flex flex-col gap-5'>
                   <p className='text-2xl text-gray-500'>For only $80 a month you get a standard 3-5 page small business website to showcase your services. If you need something a little different we can do a free consultation to explore solutions and discuss pricing.</p>
                   <p className='text-2xl text-gray-500'>You own your domain and content. Cancel anytime after 6 months. No cancellation fees. No hassle.</p>
