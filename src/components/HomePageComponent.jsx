@@ -48,8 +48,8 @@ export default function HomePageComponent() {
               </div>
             </section>
             <section className='mt-20 flex gap-12 justify-center items-center text-gray-700'>
-              <div className='max-w-md h-auto'>
-                <img className='rounded-lg' src="images/payment2.webp" alt="" />
+              <div className='max-w-md'>
+                <img className='w-full h-auto rounded-lg shadow-md shadow-gray-800' src="images/payment2.webp" alt="" />
               </div>
               <div className='flex flex-col gap-10'>
                 <h3 className='text-4xl'>$0 Down, Only $80 A Month</h3>
