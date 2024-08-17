@@ -11,7 +11,7 @@ export default function FooterComponent() {
             {/* <h3>setEmail@gmail.com</h3> */}
             <div className='flex flex-col justify-center items-center'>
             <Link to='/' className=''>
-              <img className='w-28 min-w-28 h-auto sm:w-32' src="images/logo3.jpeg" alt="Company Tree Logo" />
+              <img className='w-28 min-w-28 h-auto sm:w-32' src="images/logo3.png" alt="Company Tree Logo" />
             </Link>
             <div className='ml-4 hidden md:block'>
               <h1 className='text-2xl font-bold text-gray-900 xl:text-3xl'>Claremont Web Designs</h1>
