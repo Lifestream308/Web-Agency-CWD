@@ -52,10 +52,32 @@ export default function HomePageComponent() {
                 <img className='w-full h-auto rounded-lg shadow-md shadow-gray-800' src="images/payment2.webp" alt="" />
               </div>
               <div className='flex flex-col gap-10'>
-                <h3 className='text-4xl font-bold'>$0 Down, Only $80 A Month</h3>
-                <div className='max-w-2xl flex flex-col gap-5'>
-                  <p className='text-2xl text-gray-500'>For only $80 a month you get a standard 3-5 page small business website to showcase your services. If you need something a little different we can do a free consultation to explore solutions and discuss pricing.</p>
-                  <p className='text-2xl text-gray-500'>You own your domain and content. Cancel anytime after 6 months. No cancellation fees. No hassle.</p>
+                <h3 className='text-5xl font-bold'><span className='text-green-500'>$0</span> Down, Only <span className='text-green-500'>$80</span> A Month</h3>
+                <div className='max-w-2xl flex flex-col gap-5 text-2xl text-gray-600/90'>
+                  <p className=''>For only $80 a month you get a standard 3-5 page small business website to showcase your services. If you need something a little different we can do a free consultation to explore solutions and discuss pricing.</p>
+                  <p className=''>You own your domain and content. Cancel anytime after 6 months. No cancellation fees. No hassle.</p>
+                </div>
+              </div>
+            </section>
+            <section className='mt-12 max-w-5xl flex flex-col gap-5'>
+              <div className='flex'>
+                <div className='flex flex-col text-gray-700'>
+                  <h3 className='text-2xl font-bold'>Hosting Fees Included</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
+                </div>
+                <div className='flex flex-col text-gray-700'>
+                  <h3 className='text-2xl font-bold'>Domain Name Included</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
+                </div>
+              </div>
+              <div className='flex'>
+                <div className='flex flex-col text-gray-700'>
+                  <h3 className='text-2xl font-bold'>Real Customer Service</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
+                </div>
+                <div className='flex flex-col text-gray-700'>
+                  <h3 className='text-2xl font-bold'>Unlimited Edits</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
                 </div>
               </div>
             </section>
