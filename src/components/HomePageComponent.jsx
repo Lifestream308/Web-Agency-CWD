@@ -51,9 +51,9 @@ export default function HomePageComponent() {
               <div className='max-w-md'>
                 <img className='w-full h-auto rounded-lg shadow-md shadow-gray-800' src="images/payment2.webp" alt="" />
               </div>
-              <div className='flex flex-col gap-10'>
-                <h3 className='text-5xl font-bold'><span className='text-green-500'>$0</span> Down, Only <span className='text-green-500'>$80</span> A Month</h3>
-                <div className='max-w-2xl flex flex-col gap-5 text-2xl text-gray-600/90'>
+              <div className='max-w-xl flex flex-col gap-10'>
+                <h3 className='text-5xl font-bold leading-snug'><span className='text-green-500'>$0</span> Down, Only <span className='text-green-500'>$80</span> A Month</h3>
+                <div className='flex flex-col gap-5 text-2xl text-gray-600/90'>
                   <p className=''>For only $80 a month you get a standard 3-5 page small business website to showcase your services. If you need something a little different we can do a free consultation to explore solutions and discuss pricing.</p>
                   <p className=''>You own your domain and content. Cancel anytime after 6 months. No cancellation fees. No hassle.</p>
                 </div>
@@ -62,20 +62,32 @@ export default function HomePageComponent() {
             <section className='mt-12 max-w-5xl flex flex-col gap-5'>
               <div className='flex'>
                 <div className='flex flex-col text-gray-700'>
+                  <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
+                    <i className="material-symbols-outlined text-4xl text-green-500">cloud_upload</i>
+                  </div>
                   <h3 className='text-2xl font-bold'>Hosting Fees Included</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
                 </div>
                 <div className='flex flex-col text-gray-700'>
+                  <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
+                    <i className="material-symbols-outlined text-4xl text-green-500">http</i>
+                  </div>
                   <h3 className='text-2xl font-bold'>Domain Name Included</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
                 </div>
               </div>
               <div className='flex'>
                 <div className='flex flex-col text-gray-700'>
+                  <div className='px-2 py-1 w-fit border border-fuchsia-400 shadow-md shadow-fuchsia-400 rounded-full'>
+                    <i className="material-symbols-outlined text-4xl text-fuchsia-400">support_agent</i>
+                  </div>
                   <h3 className='text-2xl font-bold'>Real Customer Service</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
                 </div>
                 <div className='flex flex-col text-gray-700'>
+                  <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
+                    <i className="material-symbols-outlined text-4xl text-green-500">edit_note</i>
+                  </div>
                   <h3 className='text-2xl font-bold'>Unlimited Edits</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
                 </div>
