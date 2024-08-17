@@ -11,7 +11,7 @@ export default function HomePageComponent() {
                 <div className='w-1/2 flex flex-col justify-center'>
                   <h3 className='font-bold text-gray-700 text-2xl sm:text-4xl md:text-5xl'>Boosting Local Businesses With Custom Websites</h3>
                   <h3 className='mt-6 hidden font-extralight text-neutral-600 text-base sm:block md:text-lg lg:text-2xl'>Showcase Your Services And Elevate Your Brand With An Affordable Website</h3>
-                  <Link to='/contact' className='px-2 py-1 mt-6 w-fit font-normal bg-gradient-to-r from-green-600/80 to-green-400/80 text-white hover:text-gray-200/90 shadow-md shadow-gray-700 rounded-3xl sm:px-4 sm:py-2 sm:text-xl md:text-2xl sm:mt-8' href="">Get In Touch</Link>
+                  <Link to='/contact' className='px-2 py-1 mt-6 w-fit font-normal bg-gradient-to-r from-green-600 to-green-400 text-white hover:text-gray-200/90 shadow-md shadow-gray-700 rounded-3xl sm:px-4 sm:py-2 sm:text-xl md:text-2xl sm:mt-8' href="">Get In Touch</Link>
                 </div>
                 <div className='w-1/2'>
                   <img className='w-full h-auto rounded-lg shadow-md shadow-gray-800' width={1280} height={854} src="images/pexels1.jpg" alt="Picture of a happy woman looking at her laptop" />
