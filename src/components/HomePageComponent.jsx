@@ -23,7 +23,7 @@ export default function HomePageComponent() {
                 <h2 className='px-4 py-6 text-4xl text-center text-gray-700'>Stand <span className='py-5 px-2 text-white bg-gray-700 shadow-md shadow-gray-500 rounded-full'>Out</span> From The Competition</h2>
                 <p className='mt-10 max-w-4xl text-2xl text-gray-500 text-center'>Your website will improve your visibility, elevate your brand's status, and guide customers through your services.</p>
               </div>
-              <div className='mt-16 flex gap-16 justify-end'>
+              <div className='mt-16 flex gap-16 justify-center'>
                 <div className='flex flex-col gap-5'>
                   <div className='px-2 py-1 w-fit border border-blue-500 shadow-md shadow-blue-500 rounded-full'>
                     <i className="material-symbols-outlined text-4xl text-blue-500">eyeglasses</i>
