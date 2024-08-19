@@ -6,7 +6,7 @@ export default function HomePageComponent() {
     <>
       <div className='mt-2 flex flex-col gap-8 px-[6%]'>
           <main className='flex flex-col gap-6 justify-center items-center md:gap-16'>
-            <section className='min-w-[100vw] flex justify-center bg-orange-100/95'>
+            <section className='min-w-[99vw] flex justify-center bg-orange-100/95'>
               <div className='px-[8rem] py-[5rem] max-w-[1500px] flex gap-20 justify-center'>
                 <div className='w-1/2 flex flex-col justify-center'>
                   <h3 className='font-bold text-gray-700 text-2xl sm:text-4xl md:text-5xl'>Boosting Local Businesses With Custom Websites</h3>
