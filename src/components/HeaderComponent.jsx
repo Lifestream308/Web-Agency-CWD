@@ -20,6 +20,7 @@ export default function HeaderComponent() {
           <nav className='hidden flex-wrap items-center lg:flex'>
             <Link to='/' className={(location.pathname === '/' ? 'underline' : '') + ' px-4 py-2 text-xl font-light text-gray-800 hover:underline underline-offset-8'}>Home</Link>
             <Link to='/about' className={(location.pathname === '/about' ? 'underline' : '') + ' px-4 py-2 text-xl font-light text-gray-800 hover:underline underline-offset-8'}>About</Link>
+            <Link to='/features' className={(location.pathname === '/features' ? 'underline' : '') + ' px-4 py-2 text-xl font-light text-gray-800 hover:underline underline-offset-8'}>Features</Link>
             <Link to='/contact' className={(location.pathname === '/contact' ? 'underline' : '') + ' px-4 py-2 text-xl font-light text-gray-800 hover:underline underline-offset-8'}>Contact Us</Link>
           </nav>
           <HamburgerComponent />
