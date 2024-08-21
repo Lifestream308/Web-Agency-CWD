@@ -4,6 +4,7 @@ import HeaderComponent from './components/HeaderComponent'
 import HomePageComponent from './components/HomePageComponent'
 import AboutComponent from './components/AboutComponent'
 import ContactComponent from './components/ContactComponent'
+import FeaturesComponent from './components/FeaturesComponent'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Route path='/' element={ <HomePageComponent /> } />
         <Route path='/about' element={ <AboutComponent /> } />
         <Route path='/contact' element={ <ContactComponent /> } />
+        <Route path='/features' element={ <FeaturesComponent /> } />
       </Routes>
 
       <FooterComponent />
