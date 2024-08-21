@@ -95,7 +95,7 @@ export default function HomePageComponent() {
             </section>
             <section className='flex justify-center gap-12'>
               <Link to='/contact' className='px-2 py-1 mt-6 w-fit font-normal bg-gradient-to-r from-green-600 to-green-400 text-white hover:text-gray-200/90 shadow-md shadow-gray-700 rounded-3xl sm:px-4 sm:py-2 sm:text-xl md:text-2xl sm:mt-8' href="">Get In Touch</Link>
-              <Link to='/contact' className='px-2 py-1 mt-6 w-fit font-normal bg-gradient-to-r from-blue-600 to-blue-400 text-white hover:text-gray-200/90 shadow-md shadow-gray-700 rounded-3xl sm:px-4 sm:py-2 sm:text-xl md:text-2xl sm:mt-8' href="">More Features Fix</Link>
+              <Link to='/contact' className='px-2 py-1 mt-6 w-fit font-normal bg-gradient-to-r from-blue-600 to-blue-400 text-white hover:text-gray-200/90 shadow-md shadow-gray-700 rounded-3xl sm:px-4 sm:py-2 sm:text-xl md:text-2xl sm:mt-8' href="">View All Features</Link>
             </section>
           </main>
       </div>
