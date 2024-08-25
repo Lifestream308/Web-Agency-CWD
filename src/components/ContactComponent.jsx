@@ -4,7 +4,7 @@ export default function ContactComponent() {
   return (
     <section>
       <div className='px-[6%] flex flex-col items-center gap-8'>
-        <div class="mt-2 py-[2.5rem] min-w-[100vw] text-center flex justify-center bg-red-400/80">
+        <div class="mt-2 py-[2.5rem] min-w-[100vw] text-center flex justify-center bg-green-200/75">
           <h2 className='font-extrabold text-8xl text-gray-900'>Contact Us</h2>
         </div>
         <div className='max-w-2xl text-center'>
