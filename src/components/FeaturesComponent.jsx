@@ -10,13 +10,54 @@ export default function FeaturesComponent() {
         <div className='max-w-2xl text-center'>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam repudiandae ipsum necessitatibus aliquid tenetur sapiente recusandae accusantium provident magnam.</p>
         </div>
-        <div className='flex gap-8'>
-          <div className='p-4 w-1/2 flex flex-col gap-10'>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero est quos dolorem quaerat voluptates in repudiandae cupiditate atque perspiciatis accusamus nihil ex eligendi eum, reiciendis illum at blanditiis aspernatur? Libero!</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero est quos dolorem quaerat voluptates in repudiandae cupiditate atque perspiciatis accusamus nihil ex eligendi eum, reiciendis illum at blanditiis aspernatur? Libero!</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero est quos dolorem quaerat voluptates in repudiandae cupiditate atque perspiciatis accusamus nihil ex eligendi eum, reiciendis illum at blanditiis aspernatur? Libero!</p>
+        <section className='flex justify-center'>
+          <div className='p-4 w-1/3 flex flex-col gap-10'>
+            <div className='flex flex-col text-gray-700'>
+              <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
+                <i className="material-symbols-outlined text-4xl text-green-500">speed</i>
+              </div>
+              <h3 className='text-2xl font-bold'>Fast Loading</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
+            </div>
+            <div className='flex flex-col text-gray-700'>
+              <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
+                <i className="material-symbols-outlined text-4xl text-green-500">add_a_photo</i>
+              </div>
+              <h3 className='text-2xl font-bold'>Optimized Photos</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
+            </div>
+            <div className='flex flex-col text-gray-700'>
+              <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
+                <i className="material-symbols-outlined text-4xl text-green-500">account_circle</i>
+              </div>
+              <h3 className='text-2xl font-bold'>Google Business Profile</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
+            </div>
           </div>
-        </div>
+          <div className='p-4 w-1/3 flex flex-col gap-10'>
+            <div className='flex flex-col text-gray-700'>
+              <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
+                <i className="material-symbols-outlined text-4xl text-green-500">home_app_logo</i>
+              </div>
+              <h3 className='text-2xl font-bold'>Website Logo</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
+            </div>
+            <div className='flex flex-col text-gray-700'>
+              <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
+                <i className="material-symbols-outlined text-4xl text-green-500">accessible_forward</i>
+              </div>
+              <h3 className='text-2xl font-bold'>Access</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
+            </div>
+            <div className='flex flex-col text-gray-700'>
+              <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
+                <i className="material-symbols-outlined text-4xl text-green-500">search</i>
+              </div>
+              <h3 className='text-2xl font-bold'>SEO</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
+            </div>
+          </div>
+        </section>
       </div>
     </section>
   )
