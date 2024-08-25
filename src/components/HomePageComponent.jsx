@@ -97,7 +97,7 @@ export default function HomePageComponent() {
               <h3 className='text-4xl text-gray-600'>Ready For Your Website?</h3>
               <div className='flex justify-center gap-12'>
                 <Link to='/contact' className='px-2 py-1 mt-6 w-fit font-normal bg-gradient-to-r from-green-600 to-green-400 text-white hover:text-gray-200/90 shadow-md shadow-gray-700 rounded-3xl sm:px-4 sm:py-2 sm:text-xl md:text-2xl sm:mt-8' href="">Get In Touch</Link>
-                <Link to='/contact' className='px-2 py-1 mt-6 w-fit font-normal bg-gradient-to-r from-blue-600 to-blue-400 text-white hover:text-gray-200/90 shadow-md shadow-gray-700 rounded-3xl sm:px-4 sm:py-2 sm:text-xl md:text-2xl sm:mt-8' href="">View All Features</Link>
+                <Link to='/features' className='px-2 py-1 mt-6 w-fit font-normal bg-gradient-to-r from-fuchsia-600 to-fuchsia-400 text-white hover:text-gray-200/90 shadow-md shadow-gray-700 rounded-3xl sm:px-4 sm:py-2 sm:text-xl md:text-2xl sm:mt-8' href="">View All Features</Link>
               </div>
             </section>
           </main>
