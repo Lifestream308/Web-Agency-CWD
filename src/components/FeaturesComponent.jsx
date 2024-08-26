@@ -66,10 +66,10 @@ export default function FeaturesComponent() {
           </div>
         </div>
       </section>
-      <section className='relative flex justify-center items-center h-[30rem] bg-fixed bg-cover customBG1'>
+      <section className='relative flex justify-center items-center h-[30rem] bg-fixed bg-cover bg-[url("/public/images/code1.jpg")]'>
         <div className='absolute w-full h-full bg-black/20'></div>
         <div className='text-white z-10'>
-          <h3 className='text-3xl font-bold'>Also Included</h3>
+          <h3 className='text-3xl font-bold'>Including</h3>
         </div>
       </section>
     </>
