@@ -46,13 +46,6 @@ export default function FeaturesComponent() {
               <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
                 <i className="material-symbols-outlined text-4xl text-green-500">home_app_logo</i>
               </div>
-              <h3 className='text-2xl font-bold'>Mobile First</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
-            </div>
-            <div className='flex flex-col text-gray-700'>
-              <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
-                <i className="material-symbols-outlined text-4xl text-green-500">home_app_logo</i>
-              </div>
               <h3 className='text-2xl font-bold'>Website Logos</h3>
               <p>If you need help with finding a logo that represents your brand we can go over options with you to find the right type of logo for you.</p>
             </div>
