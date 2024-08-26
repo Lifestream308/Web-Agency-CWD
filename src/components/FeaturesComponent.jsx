@@ -16,6 +16,13 @@ export default function FeaturesComponent() {
               <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
                 <i className="material-symbols-outlined text-4xl text-green-500">speed</i>
               </div>
+              <h3 className='text-2xl font-bold'>Fully Responsive</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
+            </div>
+            <div className='flex flex-col text-gray-700'>
+              <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
+                <i className="material-symbols-outlined text-4xl text-green-500">speed</i>
+              </div>
               <h3 className='text-2xl font-bold'>Optimized Speed</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
             </div>
@@ -35,6 +42,13 @@ export default function FeaturesComponent() {
             </div>
           </div>
           <div className='p-4 w-1/3 flex flex-col gap-10'>
+            <div className='flex flex-col text-gray-700'>
+              <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
+                <i className="material-symbols-outlined text-4xl text-green-500">home_app_logo</i>
+              </div>
+              <h3 className='text-2xl font-bold'>Mobile First</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
+            </div>
             <div className='flex flex-col text-gray-700'>
               <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
                 <i className="material-symbols-outlined text-4xl text-green-500">home_app_logo</i>
