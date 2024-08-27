@@ -74,25 +74,25 @@ export default function FeaturesComponent() {
         <div className='text-white z-10'>
           <h3 className='text-3xl font-bold'>Including</h3>
           <div className='flex flex-wrap gap-8 text-white'>
-            <div className='w-[22rem] flex flex-col'>
-              <div className='px-2 py-1 w-fit border border-green-300 shadow-md shadow-green-300 rounded-full'>
-                <i className="material-symbols-outlined text-4xl text-green-300">account_circle</i>
-              </div>
-              <h3 className='text-2xl font-bold'>Google Business Profile</h3>
-              <p>You have to show off your website in the right spots. We can help you fill out your Google Business Profile so that your website will be displayed alongside your other information when it pops up on Google search results.</p>
-            </div>
-            <div className='w-[22rem] flex flex-col'>
-              <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
+            <div className='p-4 w-[22rem] flex flex-col backdrop-blur-sm bg-neutral-100/15 rounded-lg'>
+              <div className='px-2 py-1 w-fit border border-green-500 rounded-full'>
                 <i className="material-symbols-outlined text-4xl text-green-500">accessible_forward</i>
               </div>
               <h3 className='text-2xl font-bold'>Accessibility</h3>
               <p>More than half of all Americans wear prescription glasses to help them see better. Which is part of why we follow best accessibilty practices like using correctly contrasting colors so that people can properly view the website.</p>
             </div>
-            <div className='w-[22rem] flex flex-col'>
-              <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
+            <div className='p-4 w-[22rem] flex flex-col backdrop-blur-sm bg-neutral-100/15 rounded-lg'>
+              <div className='px-2 py-1 w-fit border border-green-300 rounded-full'>
+                <i className="material-symbols-outlined text-4xl text-green-300">account_circle</i>
+              </div>
+              <h3 className='text-2xl font-bold'>Google Business Profile</h3>
+              <p>You have to show off your website in the right spots. We can help you fill out your Google Business Profile so that your website will be displayed alongside your other information when it pops up on Google search results.</p>
+            </div>
+            <div className='p-4 w-[22rem] flex flex-col backdrop-blur-sm bg-neutral-100/15 rounded-lg'>
+              <div className='px-2 py-1 w-fit border border-green-500 rounded-full'>
                 <i className="material-symbols-outlined text-4xl text-green-500">search</i>
               </div>
-              <h3 className='text-2xl font-bold'>SEO</h3>
+              <h3 className='text-2xl font-bold'>Search Engine Optimization</h3>
               <p>More than half of all Americans wear prescription glasses to help them see better. Which is part of why we follow best accessibilty practices like using correctly contrasting colors so that people can properly view the website.</p>
             </div>
           </div>
