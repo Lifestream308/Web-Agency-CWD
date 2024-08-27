@@ -10,6 +10,9 @@ export default function FeaturesComponent() {
         <div className='max-w-xl text-xl text-center text-gray-600'>
           <p>Our goal is to create quality websites that we can proudly stand behind. Here are the top features that we include with every website.</p>
         </div>
+        <div className='max-w-xl justify-center'>
+          <img className='w-full h-auto rounded-lg' src="/public/images/website1.jpg" alt="" />
+        </div>
         <div className='flex justify-center'>
           <div className='p-4 w-1/3 flex flex-col gap-10'>
             <div className='flex flex-col text-gray-700'>
@@ -67,7 +70,7 @@ export default function FeaturesComponent() {
         </div>
       </section>
       <section className='relative flex justify-center items-center h-[30rem] bg-fixed bg-cover bg-[url("/public/images/code1.jpg")]'>
-        <div className='absolute w-full h-full bg-black/20'></div>
+        <div className='absolute w-full h-full bg-black/50'></div>
         <div className='text-white z-10'>
           <h3 className='text-3xl font-bold'>Including</h3>
         </div>
