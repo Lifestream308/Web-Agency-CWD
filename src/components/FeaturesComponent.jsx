@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function FeaturesComponent() {
   return (
@@ -94,6 +95,9 @@ export default function FeaturesComponent() {
           </div>
         </div>
       </section>
+      <div className='mt-20 flex justify-center'>
+        <Link to='/contact' className='px-4 py-2 w-fit font-normal text-2xl bg-gradient-to-r from-green-600 to-green-400 text-white hover:text-gray-200/90 shadow-md shadow-gray-700 rounded-3xl' href="">Get In Touch</Link>
+      </div>
     </>
   )
 }
