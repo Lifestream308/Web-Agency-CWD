@@ -5,7 +5,7 @@ export default function FeaturesComponent() {
   return (
     <>
       <section className='px-[6%] flex flex-col items-center gap-8'>
-        <div class="mt-2 py-[2.5rem] min-w-[100vw] text-center flex justify-center bg-fuchsia-300/50">
+        <div className="mt-2 py-[2.5rem] min-w-[100vw] text-center flex justify-center bg-fuchsia-300/50">
           <h2 className='font-extrabold text-8xl text-gray-800'>Features</h2>
         </div>
         <div className='max-w-xl text-xl text-center text-gray-600'>
@@ -70,7 +70,7 @@ export default function FeaturesComponent() {
         <div className='absolute w-full h-full bg-black/50'></div>
         <div className='text-white z-10'>
           <h3 className='text-5xl text-center font-bold'>Including</h3>
-          <div className='mt-16 flex flex-wrap gap-8 text-white'>
+          <div className='mt-16 flex flex-wrap gap-8 justify-center text-white'>
             <div className='p-4 w-[22rem] flex flex-col backdrop-blur-sm bg-neutral-100/15 rounded-lg'>
               <div className='px-2 py-1 w-fit border border-green-500 rounded-full'>
                 <i className="material-symbols-outlined text-4xl text-green-500">accessible_forward</i>
