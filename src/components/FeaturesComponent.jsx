@@ -70,22 +70,22 @@ export default function FeaturesComponent() {
         <div className='absolute w-full h-full bg-black/50'></div>
         <div className='text-white z-10'>
           <h3 className='text-5xl text-center font-bold'>Including</h3>
-          <div className='mt-16 flex flex-wrap gap-8 justify-center text-white'>
-            <div className='p-4 w-[22rem] flex flex-col backdrop-blur-sm bg-neutral-100/15 rounded-lg'>
+          <div className='mt-16 px-2 flex flex-wrap gap-8 justify-center text-white'>
+            <div className='p-4 min-w-[20rem] max-w-[30rem] flex flex-col gap-2 backdrop-blur-sm bg-neutral-100/15 rounded-lg'>
               <div className='px-2 py-1 w-fit border border-green-500 rounded-full'>
                 <i className="material-symbols-outlined text-4xl text-green-500">accessible_forward</i>
               </div>
               <h3 className='text-2xl font-bold'>Accessibility</h3>
               <p>More than half of all Americans wear prescription glasses to help them see better. Which is part of why we follow best accessibilty practices like using correctly contrasting colors so that people can properly view the website.</p>
             </div>
-            <div className='p-4 w-[22rem] flex flex-col backdrop-blur-sm bg-neutral-100/15 rounded-lg'>
+            <div className='p-4 min-w-[20rem] max-w-[30rem] flex flex-col gap-2 backdrop-blur-sm bg-neutral-100/15 rounded-lg'>
               <div className='px-2 py-1 w-fit border border-green-300 rounded-full'>
                 <i className="material-symbols-outlined text-4xl text-green-300">account_circle</i>
               </div>
               <h3 className='text-2xl font-bold'>Google Business Profile</h3>
               <p>You have to show off your website in the right spots. We can help you fill out your Google Business Profile so that your website will be displayed alongside your other information when it pops up on Google search results.</p>
             </div>
-            <div className='p-4 w-[22rem] flex flex-col backdrop-blur-sm bg-neutral-100/15 rounded-lg'>
+            <div className='p-4 min-w-[20rem] max-w-[30rem] flex flex-col gap-2 backdrop-blur-sm bg-neutral-100/15 rounded-lg'>
               <div className='px-2 py-1 w-fit border border-green-500 rounded-full'>
                 <i className="material-symbols-outlined text-4xl text-green-500">search</i>
               </div>
