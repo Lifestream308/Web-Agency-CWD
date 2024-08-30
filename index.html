@@ -10,6 +10,14 @@
     <title>Claremont Web Designs</title>
   </head>
   <body>
+
+    <!-- Needed to use Netlify Forms. Will be hidden from users. -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
