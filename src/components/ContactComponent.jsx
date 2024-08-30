@@ -1,26 +1,20 @@
 import React from 'react'
+import ContactForm from './ContactForm'
 
 export default function ContactComponent() {
   return (
-    <section>
+    <div>
       <div className='px-[6%] flex flex-col items-center gap-8'>
         <div class="mt-2 py-[2.5rem] min-w-[100vw] text-center flex justify-center bg-green-200/75">
           <h2 className='font-extrabold text-8xl text-gray-900'>Contact Us</h2>
         </div>
-        <div className='max-w-2xl text-center'>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam repudiandae ipsum necessitatibus aliquid tenetur sapiente recusandae accusantium provident magnam.</p>
-        </div>
-        <div className='flex gap-8'>
-          <div className='p-4 w-1/2'>
-            <img className='rounded-lg' src="images/owner1.jpg" alt="" />
-          </div>
-          <div className='p-4 w-1/2 flex flex-col gap-10'>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero est quos dolorem quaerat voluptates in repudiandae cupiditate atque perspiciatis accusamus nihil ex eligendi eum, reiciendis illum at blanditiis aspernatur? Libero!</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero est quos dolorem quaerat voluptates in repudiandae cupiditate atque perspiciatis accusamus nihil ex eligendi eum, reiciendis illum at blanditiis aspernatur? Libero!</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero est quos dolorem quaerat voluptates in repudiandae cupiditate atque perspiciatis accusamus nihil ex eligendi eum, reiciendis illum at blanditiis aspernatur? Libero!</p>
-          </div>
+        <div className='max-w-xl text-2xl text-center text-gray-600'>
+          <p>Send us an email by using our email address down below or by filling out the form and we will get back to you promptly!</p>
         </div>
       </div>
-    </section>
+
+      <ContactForm />
+      
+    </div>
   )
 }
