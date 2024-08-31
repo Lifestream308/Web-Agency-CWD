@@ -4,6 +4,8 @@ export default function ContactForm() {
 
     const [formData, setFormData] = useState({
         name: '',
+        business: '',
+        telephone: '',
         email: '',
         message: ''
       });
@@ -26,6 +28,14 @@ export default function ContactForm() {
             <div className='mt-8 flex flex-col'>
                 <label htmlFor="name">Name:</label>
                 <input className='border border-gray-400' type="text" name="name" value={formData.name} onChange={handleChange} required/>
+            </div>
+            <div className='mt-8 flex flex-col'>
+                <label htmlFor="business">Business:</label>
+                <input className='border border-gray-400' type="text" name="business" value={formData.business} onChange={handleChange} required/>
+            </div>
+            <div className='mt-8 flex flex-col'>
+                <label htmlFor="telephone">Telephone:</label>
+                <input className='border border-gray-400' type="tel" name="telephone" value={formData.telephone} onChange={handleChange} required/>
             </div>
             <div className='mt-8 flex flex-col'>
                 <label htmlFor="email">Email:</label> 
