@@ -39,8 +39,8 @@ export default function HomePageComponent() {
                   <p className='text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nostrum magnam mollitia incidunt nesciunt hic sed impedit voluptatem, vero omnis explicabo, ut exercitationem accusantium perferendis!</p>
                 </div>
                 <div className='flex flex-col gap-5'>
-                  <div className='px-2 py-1 w-fit border border-red-500 shadow-md shadow-red-500 rounded-full'>
-                    <i className="material-symbols-outlined text-4xl text-red-500">campaign</i>
+                  <div className='px-2 py-1 w-fit border border-fuchsia-400 shadow-md shadow-fuchsia-400 rounded-full'>
+                    <i className="material-symbols-outlined text-4xl text-fuchsia-400">campaign</i>
                   </div>
                   <h3 className='text-3xl'>Be Heard.</h3>
                   <p className='text-gray-500'>What are your services? Who do you sell to? A professional website will answer these questions for potential customers and let them know that you are the one they're looking for.</p>
