@@ -18,32 +18,27 @@ export default function ContactForm() {
       };
 
   return (
-    <div className='mt-12 text-2xl text-gray-600 flex justify-center'>
-        <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+    <div className='mt-12 mx-auto px-12 pb-8 w-fit text-xl text-gray-600 flex justify-center shadow-md shadow-gray-400 border-t border-gray-200 rounded-lg'>
+        <form className='w-[22rem]' name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
             <input type="hidden" name="form-name" value="contact" />
             <div className='hidden'>
                 <label htmlFor="bot-field">Do not fill out this section</label>
                 <input type="hidden" name="bot-field" />
             </div>
             <div className='mt-8 flex flex-col'>
-                <label htmlFor="name">Name:</label>
-                <input className='border border-gray-400' type="text" name="name" value={formData.name} onChange={handleChange} required/>
+                <input className='px-4 py-2 border border-gray-400 rounded-md' type="text" name="name" value={formData.name} onChange={handleChange} required placeholder='Name'/>
             </div>
             <div className='mt-8 flex flex-col'>
-                <label htmlFor="business">Business:</label>
-                <input className='border border-gray-400' type="text" name="business" value={formData.business} onChange={handleChange} required/>
+                <input className='px-4 py-2 border border-gray-400 rounded-md' type="text" name="business" value={formData.business} onChange={handleChange} required placeholder='Business'/>
             </div>
             <div className='mt-8 flex flex-col'>
-                <label htmlFor="telephone">Telephone:</label>
-                <input className='border border-gray-400' type="tel" name="telephone" value={formData.telephone} onChange={handleChange} required/>
+                <input className='px-4 py-2 border border-gray-400 rounded-md' type="tel" name="telephone" value={formData.telephone} onChange={handleChange} required placeholder='Telephone'/>
             </div>
             <div className='mt-8 flex flex-col'>
-                <label htmlFor="email">Email:</label> 
-                <input className='border border-gray-400' type="email" name="email" value={formData.email} onChange={handleChange} required/>
+                <input className='px-4 py-2 border border-gray-400 rounded-md' type="email" name="email" value={formData.email} onChange={handleChange} required placeholder='Email'/>
             </div>
             <div className='mt-8 flex flex-col'>
-                <label htmlFor="message">Message:</label>
-                <textarea className='border border-gray-400' name="message" value={formData.message} onChange={handleChange} required/>
+                <textarea className='px-4 py-2 h-[11rem] border border-gray-400 rounded-md' name="message" value={formData.message} onChange={handleChange} required placeholder='Type your message here...'/>
             </div>
             <button className='mt-8 px-4 py-2 text-white bg-green-600 rounded-lg' type="submit">Send</button>
         </form>
