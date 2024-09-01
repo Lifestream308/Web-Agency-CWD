@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactForm from './ContactForm'
 
 export default function AboutComponent() {
   return (
@@ -10,7 +11,7 @@ export default function AboutComponent() {
         <div className='max-w-3xl text-center'>
           {/* <h3 className='mt-16 text-4xl text-gray-700 underline-offset-8'>Welcome To Claremont Web Designs!</h3> */}
         </div>
-        <div className='mt-14 flex gap-20'>
+        <div className='mt-14 flex flex-col gap-20 md:flex-row'>
           <div className='relative mx-auto my-auto w-[20rem] min-w-[20rem] text-center'>
             {/* <small className='text-lg text-fuchsia-500'>Claremont Web Designs</small> */}
             <div className='absolute top-0 left-0 right-0 bottom-0 bg-orange-100/95 -z-10 translate-x-9 translate-y-9 rounded-lg'></div>
@@ -24,6 +25,7 @@ export default function AboutComponent() {
           </div>
         </div>
       </div>
+      <ContactForm />
     </>
   )
 }
