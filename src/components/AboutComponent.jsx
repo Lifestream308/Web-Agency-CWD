@@ -1,7 +1,12 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import ContactForm from './ContactForm'
 
 export default function AboutComponent() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <>
       <div className='px-[6%] flex flex-col items-center gap-8'>
