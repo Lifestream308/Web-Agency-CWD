@@ -92,10 +92,10 @@ export default function HomePageComponent() {
               </div>
             </section>
             <section className='mt-12 flex flex-col items-center gap-4'>
-              <h3 className='text-4xl text-gray-600'>Ready For Your Website?</h3>
+              <h3 className='text-4xl text-gray-600 text-center'>Ready For Your Website?</h3>
               <div className='flex justify-center gap-12'>
-                <Link to='/contact' className='px-2 py-1 mt-6 w-fit font-normal bg-gradient-to-r from-green-600 to-green-400 text-white hover:text-gray-200/90 shadow-md shadow-gray-700 rounded-3xl sm:px-4 sm:py-2 sm:text-xl md:text-2xl sm:mt-8' href="">Get In Touch</Link>
-                <Link to='/features' className='px-2 py-1 mt-6 w-fit font-normal bg-gradient-to-r from-fuchsia-600 to-fuchsia-400 text-white hover:text-gray-200/90 shadow-md shadow-gray-700 rounded-3xl sm:px-4 sm:py-2 sm:text-xl md:text-2xl sm:mt-8' href="">View All Features</Link>
+                <Link to='/contact' className='px-4 py-2 mt-8 w-fit font-normal bg-gradient-to-r from-green-600 to-green-400 text-2xl text-white hover:text-gray-300 shadow-md shadow-gray-700 rounded-3xl' href="">Get In Touch</Link>
+                <Link to='/features' className='px-4 py-2 mt-8 w-fit font-normal bg-gradient-to-r from-fuchsia-600 to-fuchsia-400 text-2xl text-white hover:text-gray-300 shadow-md shadow-gray-700 rounded-3xl' href="">View All Features</Link>
               </div>
             </section>
           </main>
