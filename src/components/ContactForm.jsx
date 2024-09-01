@@ -40,7 +40,7 @@ export default function ContactForm() {
             <div className='mt-8 flex flex-col'>
                 <textarea className='px-4 py-2 h-[11rem] border border-gray-400 rounded-md' name="message" value={formData.message} onChange={handleChange} required placeholder='Type your message here...'/>
             </div>
-            <button className='mt-8 px-4 py-2 text-white bg-green-600 rounded-lg' type="submit">Send</button>
+            <button className='mt-8 px-4 py-2 text-white hover:text-gray-300 bg-gradient-to-r from-green-600 to-green-400 shadow-md shadow-gray-700 rounded-lg' type="submit">Submit</button>
         </form>
     </div>
   )
