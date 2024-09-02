@@ -65,29 +65,29 @@ export default function HomePageComponent() {
               </div>
             </section>
             <section className='mt-12 max-w-5xl flex flex-col gap-5'>
-              <div className='grid grid-cols-2'>
-                <div className='flex flex-col text-gray-700'>
+              <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
+                <div className='flex flex-col gap-2 text-gray-700'>
                   <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
                     <i className="material-symbols-outlined text-4xl text-green-500">cloud_upload</i>
                   </div>
                   <h3 className='text-2xl font-bold'>Hosting Fees Included</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
                 </div>
-                <div className='flex flex-col text-gray-700'>
+                <div className='flex flex-col gap-2 text-gray-700'>
                   <div className='px-2 py-1 w-fit border border-blue-500 shadow-md shadow-blue-500 rounded-full'>
                     <i className="material-symbols-outlined text-4xl text-blue-500">http</i>
                   </div>
                   <h3 className='text-2xl font-bold'>Domain Name Included</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
                 </div>
-                <div className='flex flex-col text-gray-700'>
+                <div className='flex flex-col gap-2 text-gray-700'>
                   <div className='px-2 py-1 w-fit border border-fuchsia-400 shadow-md shadow-fuchsia-400 rounded-full'>
                     <i className="material-symbols-outlined text-4xl text-fuchsia-400">support_agent</i>
                   </div>
                   <h3 className='text-2xl font-bold'>Real Customer Service</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
                 </div>
-                <div className='flex flex-col text-gray-700'>
+                <div className='flex flex-col gap-2 text-gray-700'>
                   <div className='px-2 py-1 w-fit border border-orange-400 shadow-md shadow-orange-400 rounded-full'>
                     <i className="material-symbols-outlined text-4xl text-orange-400">edit_note</i>
                   </div>
