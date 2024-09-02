@@ -17,9 +17,7 @@ export default function ContactComponent() {
           <p>Send us an email by using our email address down below or by filling out the form and we will get back to you promptly!</p>
         </div>
       </div>
-
       <ContactForm />
-      
     </div>
   )
 }

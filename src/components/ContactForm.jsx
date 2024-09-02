@@ -18,7 +18,7 @@ export default function ContactForm() {
       };
 
   return (
-    <div className='mt-12 mx-auto px-12 pb-8 w-fit text-xl text-gray-600 flex flex-col justify-center items-center shadow-md shadow-gray-400 border-t border-gray-200 rounded-lg'>
+    <div className='mt-12 mx-auto px-12 pb-8 w-fit max-w-full text-xl text-gray-600 flex flex-col justify-center items-center shadow-md shadow-gray-400 border-t border-gray-200 rounded-lg'>
       <p className='mt-6'>Let's get started!</p>
       <form className='w-[22rem]' name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="contact" />
