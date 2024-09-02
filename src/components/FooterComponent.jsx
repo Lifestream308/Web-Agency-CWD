@@ -6,7 +6,7 @@ export default function FooterComponent() {
 
   return (
     <>
-        <footer className='mt-20 mb-16 flex flex-col-reverse gap-6 text-gray-900 justify-around items-center'>
+        <footer className='mt-20 mb-16 flex flex-col-reverse gap-6 text-gray-800 justify-around items-center'>
           <div className='flex flex-col items-center gap-2'>
             {/* <h3>setEmail@gmail.com</h3> */}
             <div className='flex flex-col justify-center items-center'>
@@ -14,7 +14,7 @@ export default function FooterComponent() {
               <img className='w-28 min-w-28 h-auto sm:w-32' src="images/logo3.png" alt="Company Tree Logo" />
             </Link>
             <div className=''>
-              <h1 className='text-2xl font-bold text-gray-900 xl:text-3xl'>Claremont Web Designs</h1>
+              <h1 className='text-2xl font-bold text-gray-800 xl:text-3xl'>Claremont Web Designs</h1>
               {/* <h2 className='font-extralight text-gray-600 text-base'>Web Agency</h2> */}
             </div>
           </div>
