@@ -11,7 +11,7 @@ export default function AboutComponent() {
     <>
       <div className='px-[6%] flex flex-col items-center gap-8'>
         <div class="mt-2 py-[2.5rem] min-w-[100vw] text-center flex justify-center bg-blue-200/60">
-          <h2 className='font-extrabold text-8xl text-gray-900'>About Us</h2>
+          <h2 className='font-extrabold text-6xl text-gray-800 md:text-8xl'>About Us</h2>
         </div>
         <div className='max-w-3xl text-center'>
           {/* <h3 className='mt-16 text-4xl text-gray-700 underline-offset-8'>Welcome To Claremont Web Designs!</h3> */}

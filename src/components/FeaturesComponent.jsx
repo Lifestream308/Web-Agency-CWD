@@ -11,7 +11,7 @@ export default function FeaturesComponent() {
     <>
       <section className='px-[6%] flex flex-col items-center gap-8'>
         <div className="mt-2 py-[2.5rem] min-w-[100vw] text-center flex justify-center bg-fuchsia-300/50">
-          <h2 className='font-extrabold text-8xl text-gray-800'>Features</h2>
+          <h2 className='font-extrabold text-6xl text-gray-800 md:text-8xl'>Features</h2>
         </div>
         <div className='max-w-xl text-xl text-center text-gray-600'>
           <p>Our goal is to create quality websites that we can proudly stand behind. Here are the top features that we include with every website.</p>
