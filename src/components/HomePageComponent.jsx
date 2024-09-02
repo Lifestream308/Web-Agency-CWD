@@ -52,7 +52,7 @@ export default function HomePageComponent() {
                 </div>
               </div>
             </section>
-            <section className='mt-20 flex gap-12 justify-center items-center text-gray-700'>
+            <section className='mt-20 flex flex-col gap-12 justify-center items-center text-gray-700 md:flex-row'>
               <div className='max-w-md'>
                 <img className='w-full h-auto rounded-lg shadow-md shadow-gray-800' src="images/payment2.webp" alt="" />
               </div>
