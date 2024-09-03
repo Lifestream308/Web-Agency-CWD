@@ -30,22 +30,22 @@ export default function HomePageComponent() {
                 </h2>
                 <p className='mt-4 max-w-4xl text-2xl text-gray-500 text-center'>Your website will improve your visibility, elevate your brand's status, and guide customers through your services.</p>
               </div>
-              <div className='mt-16 flex flex-col gap-16 justify-center md:flex-row'>
-                <div className='flex flex-col gap-5'>
+              <div className='mt-16 flex flex-col text-center gap-16 justify-center md:flex-row md:text-left'>
+                <div className='flex flex-col items-center gap-5 md:items-start'>
                   <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
                     <i className="material-symbols-outlined text-4xl text-green-500">eyeglasses</i>
                   </div>
                   <h3 className='text-3xl'>Be Seen.</h3>
                   <p className='text-gray-500'>Show off your website in places like a Google Business Profile. Not many businesses have a real website so when customers see that you do have one that is going to make you stand out.</p>
                 </div>
-                <div className='flex flex-col gap-5'>
+                <div className='flex flex-col items-center gap-5 md:items-start'>
                   <div className='px-2 py-1 w-fit border border-blue-500 shadow-md shadow-blue-500 rounded-full'>
                     <i className="material-symbols-outlined text-4xl text-blue-500">lock</i>
                   </div>
                   <h3 className='text-3xl'>Be Trusted.</h3>
                   <p className='text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nostrum magnam mollitia incidunt nesciunt hic sed impedit voluptatem, vero omnis explicabo, ut exercitationem accusantium perferendis!</p>
                 </div>
-                <div className='flex flex-col gap-5'>
+                <div className='flex flex-col items-center gap-5 md:items-start'>
                   <div className='px-2 py-1 w-fit border border-fuchsia-400 shadow-md shadow-fuchsia-400 rounded-full'>
                     <i className="material-symbols-outlined text-4xl text-fuchsia-400">campaign</i>
                   </div>
