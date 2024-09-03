@@ -18,6 +18,7 @@ export default function ContactForm() {
       };
 
   return (
+    <section className='mx-4 flex justify-center'>
     <div className='mt-12 mx-auto px-12 pb-8 w-fit max-w-full text-xl text-gray-600 flex flex-col justify-center items-center shadow-md shadow-gray-400 border-t border-gray-200 rounded-lg'>
       <p className='mt-6'>Let's get started!</p>
       <form className='w-[22rem]' name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
@@ -44,5 +45,6 @@ export default function ContactForm() {
           <button className='mt-8 px-4 py-2 text-white hover:text-gray-300 bg-gradient-to-r from-green-600 to-green-400 shadow-md shadow-gray-700 rounded-lg' type="submit">Submit</button>
       </form>
     </div>
+    </section>
   )
 }
