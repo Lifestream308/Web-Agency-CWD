@@ -50,7 +50,7 @@ export default function FeaturesComponent() {
             </div>
         </div>
       </section>
-      <section className='py-16 mt-16 min-h-fit relative flex justify-center items-center bg-fixed bg-cover bg-[url("/images/code1.jpg")]'>
+      <section className='px-4 py-16 mt-16 min-h-fit relative flex justify-center items-center bg-fixed bg-cover bg-[url("/images/code1.jpg")]'>
         <div className='absolute w-full h-full bg-black/50'></div>
         <div className='text-white z-10'>
           <h3 className='text-5xl text-center font-bold'>Including</h3>
