@@ -10,7 +10,7 @@ export default function HomePageComponent() {
   return (
     <>
       <div className='mt-2 flex flex-col gap-8 px-[6%]'>
-          <main className='flex flex-col gap-6 justify-center items-center md:gap-16'>
+          <main className='flex flex-col gap-6 justify-center items-center md:gap-12'>
             <section className='min-w-[100vw] flex justify-center bg-orange-100/95'>
               <div className='px-6 py-4 max-w-[1500px] flex flex-col justify-center gap-12 lg:flex-row lg:gap-20 lg:px-32 lg:py-20'>
                 <div className='ml-4 w-full lg:w-1/2 flex flex-col justify-center lg:ml-0'>
@@ -30,7 +30,7 @@ export default function HomePageComponent() {
                 </h2>
                 <p className='mt-4 max-w-4xl text-2xl text-gray-500 text-center'>Your website will improve your visibility, elevate your brand's status, and guide customers through your services.</p>
               </div>
-              <div className='mt-16 flex flex-col text-center gap-16 justify-center md:flex-row md:text-left'>
+              <div className='mt-12 flex flex-col text-center gap-12 justify-center md:flex-row md:text-left'>
                 <div className='flex flex-col items-center gap-3 md:items-start'>
                   <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
                     <i className="material-symbols-outlined text-4xl text-green-500">eyeglasses</i>
