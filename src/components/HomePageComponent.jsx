@@ -13,7 +13,7 @@ export default function HomePageComponent() {
           <main className='flex flex-col gap-6 justify-center items-center md:gap-16'>
             <section className='min-w-[100vw] flex justify-center bg-orange-100/95'>
               <div className='px-6 py-4 max-w-[1500px] flex flex-col justify-center gap-12 lg:flex-row lg:gap-20 lg:px-32 lg:py-20'>
-                <div className='w-full lg:w-1/2 flex flex-col text-center justify-center items-center lg:items-start lg:text-left'>
+                <div className='ml-4 w-full lg:w-1/2 flex flex-col justify-center lg:ml-0'>
                   <h3 className='font-bold text-gray-700 text-3xl sm:text-4xl lg:text-5xl'>Boosting Local Businesses With Custom Websites</h3>
                   <h3 className='mt-6 hidden font-extralight text-neutral-600 text-base sm:block md:text-lg lg:text-2xl'>Showcase Your Services And Elevate Your Brand With An Affordable Website</h3>
                   <Link to='/contact' className='px-4 py-2 mt-6 w-fit text-xl bg-gradient-to-r from-green-600 to-green-400 text-white hover:text-gray-300 shadow-md shadow-gray-700 rounded-3xl md:text-2xl sm:mt-8' href="">Get In Touch</Link>
@@ -31,21 +31,21 @@ export default function HomePageComponent() {
                 <p className='mt-4 max-w-4xl text-2xl text-gray-500 text-center'>Your website will improve your visibility, elevate your brand's status, and guide customers through your services.</p>
               </div>
               <div className='mt-16 flex flex-col text-center gap-16 justify-center md:flex-row md:text-left'>
-                <div className='flex flex-col items-center gap-5 md:items-start'>
+                <div className='flex flex-col items-center gap-2 md:items-start'>
                   <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
                     <i className="material-symbols-outlined text-4xl text-green-500">eyeglasses</i>
                   </div>
                   <h3 className='text-3xl'>Be Seen.</h3>
                   <p className='text-gray-500'>Show off your website in places like a Google Business Profile. Not many businesses have a real website so when customers see that you do have one that is going to make you stand out.</p>
                 </div>
-                <div className='flex flex-col items-center gap-5 md:items-start'>
+                <div className='flex flex-col items-center gap-2 md:items-start'>
                   <div className='px-2 py-1 w-fit border border-blue-500 shadow-md shadow-blue-500 rounded-full'>
                     <i className="material-symbols-outlined text-4xl text-blue-500">lock</i>
                   </div>
                   <h3 className='text-3xl'>Be Trusted.</h3>
                   <p className='text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nostrum magnam mollitia incidunt nesciunt hic sed impedit voluptatem, vero omnis explicabo, ut exercitationem accusantium perferendis!</p>
                 </div>
-                <div className='flex flex-col items-center gap-5 md:items-start'>
+                <div className='flex flex-col items-center gap-2 md:items-start'>
                   <div className='px-2 py-1 w-fit border border-fuchsia-400 shadow-md shadow-fuchsia-400 rounded-full'>
                     <i className="material-symbols-outlined text-4xl text-fuchsia-400">campaign</i>
                   </div>
