@@ -60,7 +60,7 @@ export default function FeaturesComponent() {
                 <i className="material-symbols-outlined text-4xl text-green-500">accessible_forward</i>
               </div>
               <h3 className='text-2xl font-bold'>Accessibility</h3>
-              <p>More than half of all Americans wear prescription glasses to help them see better. Which is part of why we follow best accessibilty practices like using correctly contrasting colors so that people can properly view the website.</p>
+              <p>More than half of all Americans wear prescription glasses to help them see better. Which is part of why we follow best accessibilty practices like using contrasting colors so that people can comfortably read the website.</p>
             </div>
             <div className='p-4 min-w-[20rem] max-w-[30rem] flex flex-col gap-2 backdrop-blur-sm bg-neutral-100/15 rounded-lg'>
               <div className='px-2 py-1 w-fit border border-blue-400 rounded-full'>
