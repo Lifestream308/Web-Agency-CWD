@@ -100,7 +100,7 @@ export default function HomePageComponent() {
             </section>
             <section className='mt-12 flex flex-col items-center gap-4'>
               <h3 className='text-4xl text-gray-600 text-center'>Ready For Your Website?</h3>
-              <div className='flex justify-center gap-12'>
+              <div className='flex justify-center gap-8 md:gap-12'>
                 <Link to='/contact' className='px-4 py-2 mt-8 w-fit text-center bg-gradient-to-r from-green-600 to-green-400 text-lg md:text-2xl text-white hover:text-gray-300 shadow-md shadow-gray-700 rounded-3xl' href="">Get In Touch</Link>
                 <Link to='/features' className='px-4 py-2 mt-8 w-fit text-center bg-gradient-to-r from-fuchsia-600 to-fuchsia-400 text-lg md:text-2xl text-white hover:text-gray-300 shadow-md shadow-gray-700 rounded-3xl' href="">View All Features</Link>
               </div>
