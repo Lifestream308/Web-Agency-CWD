@@ -19,29 +19,29 @@ export default function FeaturesComponent() {
         <div className='max-w-xl justify-center'>
           <img className='w-full h-auto rounded-lg shadow-gray-700 shadow-md' src="/images/website1.jpg" alt="" />
         </div>
-        <div className='mt-8 p-4 max-w-4xl grid grid-cols-1 gap-12 text-center md:grid-cols-2'>
-            <div className='flex flex-col items-center text-gray-700'>
+        <div className='mt-8 p-4 max-w-4xl grid grid-cols-1 gap-14 text-center md:grid-cols-2'>
+            <div className='flex flex-col items-center gap-3 text-gray-700'>
               <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
                 <i className="material-symbols-outlined text-4xl text-green-500">speed</i>
               </div>
               <h3 className='text-2xl font-bold'>Fully Responsive</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
             </div>
-            <div className='flex flex-col items-center text-gray-700'>
+            <div className='flex flex-col items-center gap-3 text-gray-700'>
               <div className='px-2 py-1 w-fit border border-blue-500 shadow-md shadow-blue-500 rounded-full'>
                 <i className="material-symbols-outlined text-4xl text-blue-500">speed</i>
               </div>
               <h3 className='text-2xl font-bold'>Optimized Speed</h3>
               <p>Nobody likes a slow website. So that's why we test our websites using Google's page speed tool to analyze where we can improve the website in order to make sure that it runs like lightning.</p>
             </div>
-            <div className='flex flex-col items-center text-gray-700'>
+            <div className='flex flex-col items-center gap-3 text-gray-700'>
               <div className='px-2 py-1 w-fit border border-fuchsia-500 shadow-md shadow-fuchsia-500 rounded-full'>
                 <i className="material-symbols-outlined text-4xl text-fuchsia-500">add_a_photo</i>
               </div>
               <h3 className='text-2xl font-bold'>Stock Photos</h3>
               <p>We search through thousands of photos to find the right look for your website. We can also prompt AI image generators to help us create unique images for your site.</p>
             </div>
-            <div className='flex flex-col items-center text-gray-700'>
+            <div className='flex flex-col items-center gap-3 text-gray-700'>
               <div className='px-2 py-1 w-fit border border-orange-400 shadow-md shadow-orange-400 rounded-full'>
                 <i className="material-symbols-outlined text-4xl text-orange-400">home_app_logo</i>
               </div>
