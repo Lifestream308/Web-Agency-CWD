@@ -54,19 +54,19 @@ export default function HomePageComponent() {
                 </div>
               </div>
             </section>
-            <section className='mt-20 flex flex-col gap-12 justify-center items-center text-gray-700 md:flex-row'>
+            <section className='mt-12 flex flex-col gap-8 justify-center items-center text-gray-700 md:flex-row'>
               <div className='max-w-md'>
-                <img className='w-full h-auto rounded-lg shadow-md shadow-gray-800' src="images/payment2.webp" alt="" />
+                <img className='w-full h-auto rounded-lg shadow-md shadow-gray-800' src="images/payment2.webp" alt="Happy man about to make purchase on computer" />
               </div>
-              <div className='max-w-xl flex flex-col gap-10'>
+              <div className='max-w-xl flex flex-col gap-4'>
                 <h3 className='text-5xl font-bold leading-snug'><span className='text-green-500'>$0</span> Down, Only <span className='text-green-500'>$80</span> A Month</h3>
-                <div className='flex flex-col gap-5 text-2xl text-gray-600/90'>
+                <div className='flex flex-col gap-4 text-2xl text-gray-600/90'>
                   <p className=''>For only $80 a month you get a standard 3-5 page small business website to showcase your services. If you need something a little different we can do a free consultation to explore solutions and discuss pricing.</p>
                   <p className=''>You own your domain and content. Cancel anytime after 6 months. No cancellation fees. No hassle.</p>
                 </div>
               </div>
             </section>
-            <section className='mt-12 max-w-5xl flex flex-col gap-5'>
+            <section className='mt-12 max-w-5xl flex flex-col'>
               <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
                 <div className='flex flex-col gap-3 text-gray-700'>
                   <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
