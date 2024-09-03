@@ -67,7 +67,7 @@ export default function HomePageComponent() {
               </div>
             </section>
             <section className='mt-12 max-w-5xl flex flex-col gap-5'>
-              <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
+              <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
                 <div className='flex flex-col gap-3 text-gray-700'>
                   <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
                     <i className="material-symbols-outlined text-4xl text-green-500">cloud_upload</i>
