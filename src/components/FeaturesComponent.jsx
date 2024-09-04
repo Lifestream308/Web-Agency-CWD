@@ -74,7 +74,7 @@ export default function FeaturesComponent() {
                 <i className="material-symbols-outlined text-4xl text-fuchsia-400">search</i>
               </div>
               <h3 className='text-2xl font-bold'>Search Engine Optimization</h3>
-              <p>More than half of all Americans wear prescription glasses to help them see better. Which is part of why we follow best accessibilty practices like using correctly contrasting colors so that people can properly view the website.</p>
+              <p>At Claremont Web Designs we stick to industry best practices so that your website is discoverable by your target audience. We use keywords, meta tags, and a mobile-friendly design to enhance your site's visibility.</p>
             </div>
           </div>
         </div>
