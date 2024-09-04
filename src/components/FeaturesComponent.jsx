@@ -22,10 +22,10 @@ export default function FeaturesComponent() {
         <div className='mt-8 p-4 max-w-4xl grid grid-cols-1 gap-14 text-center md:grid-cols-2'>
             <div className='flex flex-col items-center gap-3 text-gray-700'>
               <div className='px-2 py-1 w-fit border border-green-500 shadow-md shadow-green-500 rounded-full'>
-                <i className="material-symbols-outlined text-4xl text-green-500">speed</i>
+                <i className="material-symbols-outlined text-4xl text-green-500">responsive_layout</i>
               </div>
               <h3 className='text-2xl font-bold'>Fully Responsive</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
+              <p>Internet devices can take on so many sizes these days. Which is why we make sure our websites look good on all devices ranging from cell phones to tablets to desktops.</p>
             </div>
             <div className='flex flex-col items-center gap-3 text-gray-700'>
               <div className='px-2 py-1 w-fit border border-blue-500 shadow-md shadow-blue-500 rounded-full'>
