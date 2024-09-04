@@ -43,7 +43,7 @@ export default function HomePageComponent() {
                     <i className="material-symbols-outlined text-4xl text-blue-500">lock</i>
                   </div>
                   <h3 className='text-3xl'>Be Trusted.</h3>
-                  <p className='text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nostrum magnam mollitia incidunt nesciunt hic sed impedit voluptatem, vero omnis explicabo, ut exercitationem accusantium perferendis!</p>
+                  <p className='text-gray-500'>A beautiful website helps establish the credibility of your business. A website can show customers your knowledge of the field and the quality they can expect when working with you.</p>
                 </div>
                 <div className='flex flex-col items-center gap-3 md:items-start'>
                   <div className='px-2 py-1 w-fit border border-fuchsia-400 shadow-md shadow-fuchsia-400 rounded-full'>
