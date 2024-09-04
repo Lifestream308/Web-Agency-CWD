@@ -56,7 +56,7 @@ export default function HomePageComponent() {
             </section>
             <section className='mt-12 flex flex-col gap-8 justify-center items-center text-gray-700 md:flex-row'>
               <div className='max-w-md'>
-                <img className='w-full h-auto rounded-lg shadow-md shadow-gray-800' src="images/payment2.webp" alt="Happy man about to make purchase on computer" />
+                <img loading='lazy' className='w-full h-auto rounded-lg shadow-md shadow-gray-800' src="images/payment2.webp" alt="Happy man about to make purchase on computer" />
               </div>
               <div className='max-w-xl flex flex-col gap-4'>
                 <h3 className='text-5xl font-bold leading-snug'><span className='text-green-600'>$0</span> Down, Only <span className='text-green-600'>$80</span> A Month</h3>
