@@ -19,9 +19,9 @@ export default function ContactForm() {
 
   return (
     <section className='mx-4 flex justify-center'>
-    <div className='mt-12 mx-auto px-12 pb-8 w-fit max-w-full text-xl text-gray-600 flex flex-col justify-center items-center shadow-md shadow-gray-400 border-t border-gray-200 rounded-lg'>
+    <div className='mt-12 mx-auto px-6 pb-8 w-fit max-w-full text-xl text-gray-600 flex flex-col justify-center items-center shadow-md shadow-gray-400 border-t border-gray-200 rounded-lg md:px-12'>
       <p className='mt-6'>Let's get started!</p>
-      <form className='w-[22rem]' name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+      <form className='w-[22rem] max-w-full' name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="contact" />
           <div className='hidden'>
               <label htmlFor="bot-field">Do not fill out this section</label>
