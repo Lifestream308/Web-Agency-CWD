@@ -87,7 +87,7 @@ export default function HomePageComponent() {
                     <i className="material-symbols-outlined text-4xl text-fuchsia-400">support_agent</i>
                   </div>
                   <h3 className='text-2xl font-bold'>Real Customer Service</h3>
-                  <p>Above all we want to be friendly, helpful, and honest. Your best interests are our best interests. We grow when you grow.</p>
+                  <p>Above all we strive to be friendly, helpful, and honest. Your best interests are our best interests. We grow when you grow.</p>
                 </div>
                 <div className='flex flex-col gap-3 text-gray-700'>
                   <div className='px-2 py-1 w-fit border border-orange-400 shadow-md shadow-orange-400 rounded-full'>
