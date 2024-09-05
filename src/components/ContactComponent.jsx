@@ -16,6 +16,10 @@ export default function ContactComponent() {
         <div className='max-w-xl text-2xl text-center text-gray-600'>
           <p>Send us an email by using our email address down below or by filling out the form and we will get back to you promptly!</p>
         </div>
+        <div className='max-w-4xl'>
+          <img className='w-full h-auto shadow-md shadow-gray-700 rounded-lg' src="images/email3.jpg" alt="Picture of a phone focused on emails" />
+        </div>
+        <h3 className='mt-14 mb-8 text-center text-3xl text-gray-700'>ClaremontWebDesigns@gmail.com</h3>
       </div>
       <ContactForm />
     </div>
