@@ -73,28 +73,28 @@ export default function HomePageComponent() {
                     <i className="material-symbols-outlined text-4xl text-green-500">cloud_upload</i>
                   </div>
                   <h3 className='text-2xl font-bold'>Hosting Fees Included</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
+                  <p>No additional hosting fees. You pay the flat monthly subscription and we keep your website online.</p>
                 </div>
                 <div className='flex flex-col gap-3 text-gray-700'>
                   <div className='px-2 py-1 w-fit border border-blue-500 shadow-md shadow-blue-500 rounded-full'>
                     <i className="material-symbols-outlined text-4xl text-blue-500">http</i>
                   </div>
                   <h3 className='text-2xl font-bold'>Domain Name Included</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
+                  <p>If you've never purchased a domain name before, we can purchase a standard domain name for you at no extra charge.</p>
                 </div>
                 <div className='flex flex-col gap-3 text-gray-700'>
                   <div className='px-2 py-1 w-fit border border-fuchsia-400 shadow-md shadow-fuchsia-400 rounded-full'>
                     <i className="material-symbols-outlined text-4xl text-fuchsia-400">support_agent</i>
                   </div>
                   <h3 className='text-2xl font-bold'>Real Customer Service</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
+                  <p>Above all we want to be friendly, helpful, and honest. Your best interests are our best interests. We grow when you grow.</p>
                 </div>
                 <div className='flex flex-col gap-3 text-gray-700'>
                   <div className='px-2 py-1 w-fit border border-orange-400 shadow-md shadow-orange-400 rounded-full'>
                     <i className="material-symbols-outlined text-4xl text-orange-400">edit_note</i>
                   </div>
                   <h3 className='text-2xl font-bold'>Unlimited Edits</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptatum nihil omnis suscipit culpa veniam!</p>
+                  <p>Products and services evolve over time. If you need something updated just let us know and we'll handle it.</p>
                 </div>
               </div>
             </section>
