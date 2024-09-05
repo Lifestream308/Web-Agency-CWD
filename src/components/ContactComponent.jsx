@@ -19,7 +19,7 @@ export default function ContactComponent() {
         <div className='mt-0 max-w-3xl'>
           <img className='w-full h-auto shadow-md shadow-gray-700 rounded-lg' src="images/email3.jpg" alt="Picture of a phone focused on emails" />
         </div>
-        <h3 className='mt-14 mb-8 text-center text-3xl text-gray-700'>ClaremontWebDesigns@gmail.com</h3>
+        <h3 className='mt-14 mb-8 text-center text-xl text-gray-700 sm:text-2xl md:text-3xl'>ClaremontWebDesigns@gmail.com</h3>
       </div>
       {/* <div className='flex flex-col-reverse justify-center items-center gap-12'> */}
         <ContactForm />
