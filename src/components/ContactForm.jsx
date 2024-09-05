@@ -20,7 +20,7 @@ export default function ContactForm() {
   return (
     <section className='mx-4 flex justify-center'>
     <div className='mt-12 mx-auto px-6 pb-8 w-fit max-w-full text-xl text-gray-600 flex flex-col justify-center items-center shadow-md shadow-gray-400 border-t border-gray-200 rounded-lg md:px-12'>
-      <p className='mt-6'>Let's get started!</p>
+      <p className='mt-6'>Let's get <span className='font-bold text-green-600'>started!</span></p>
       <form className='w-[22rem] max-w-full' name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="contact" />
           <div className='hidden'>
