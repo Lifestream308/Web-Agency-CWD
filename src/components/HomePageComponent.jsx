@@ -54,7 +54,7 @@ export default function HomePageComponent() {
                 </div>
               </div>
             </section>
-            <section className='mt-12 flex flex-col gap-8 justify-center items-center text-gray-700 md:flex-row'>
+            <section className='mt-12 flex flex-col gap-8 justify-center items-center text-gray-700 lg:flex-row'>
               <div className='max-w-md'>
                 <img loading='lazy' className='w-full h-auto rounded-lg shadow-md shadow-gray-800' src="images/payment2.webp" alt="Happy man about to make purchase on computer" />
               </div>
