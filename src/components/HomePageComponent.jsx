@@ -25,7 +25,7 @@ export default function HomePageComponent() {
             </section>
             <section>
               <div className='mt-12 flex flex-col items-center'>
-                <h2 className='px-4 text-4xl text-center text-gray-700 leading-loose'>Stand <span className='py-5 px-2 text-white bg-gray-700 shadow-md shadow-gray-500 rounded-full'>Out</span>
+                <h2 className='px-4 text-4xl text-center text-gray-700 leading-loose'>Stand <span className='py-5 px-2 text-white bg-gray-700 shadow-md shadow-orange-400 rounded-full'>Out</span>
                   <span className=''> From The Competition</span>
                 </h2>
                 <p className='mt-4 max-w-4xl text-2xl text-gray-500 text-center sm:mt-6 md:mt-8 lg:mt-12'>Your website will improve your visibility, elevate your brand's status, and guide customers through your services.</p>
