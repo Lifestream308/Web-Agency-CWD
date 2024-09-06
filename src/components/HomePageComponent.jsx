@@ -12,13 +12,13 @@ export default function HomePageComponent() {
       <div className='mt-2 flex flex-col gap-8 px-[6%]'>
           <main className='flex flex-col gap-6 justify-center items-center md:gap-12'>
             <section className='min-w-[100vw] flex justify-center bg-orange-100/95'>
-              <div className='px-6 py-4 max-w-[1500px] flex flex-col justify-center gap-10 lg:flex-row lg:gap-20 lg:px-32 lg:py-20'>
+              <div className='px-6 py-4 max-w-[1500px] flex flex-col justify-center gap-10 lg:flex-row lg:items-center lg:gap-20 lg:px-12 lg:py-20'>
                 <div className='ml-4 w-full max-w-lg lg:w-1/2 flex flex-col justify-center lg:ml-0'>
                   <h2 className='font-bold text-gray-800 text-3xl sm:text-4xl lg:text-5xl'>Grow Your Local Business With A Custom Website</h2>
                   <h3 className='mt-6 text-neutral-600 text-base md:text-lg lg:text-2xl'>Showcase Your Services And Elevate Your Brand With An Affordable Website</h3>
                   <Link to='/contact' className='px-4 py-2 mt-6 w-fit text-xl bg-gradient-to-r from-green-600 to-green-400 text-white hover:text-gray-300 shadow-md shadow-gray-700 rounded-3xl md:text-2xl sm:mt-8' href="">Get In Touch</Link>
                 </div>
-                <div className='mb-4 w-full lg:w-1/2 lg:mb-0'>
+                <div className='mb-4 w-full max-w-xl lg:w-1/2 lg:mb-0'>
                   <img className='w-full h-auto rounded-lg shadow-md shadow-gray-800' width={1280} height={854} src="images/pexels1.jpg" alt="Picture of a happy woman looking at her laptop" />
                 </div>
               </div>
