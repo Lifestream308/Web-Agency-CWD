@@ -80,7 +80,7 @@ export default function HomePageComponent() {
                     <i className="material-symbols-outlined text-4xl text-blue-500">http</i>
                   </div>
                   <h3 className='text-2xl font-bold'>Domain Name Included</h3>
-                  <p>If you've never purchased a domain name before, we can purchase a standard domain name for you at no extra charge.</p>
+                  <p>No need to worry if you don't own a domain name, we can purchase a standard domain name for you at no extra charge.</p>
                 </div>
                 <div className='flex flex-col gap-3 text-gray-700'>
                   <div className='px-2 py-1 w-fit border border-fuchsia-400 shadow-md shadow-fuchsia-400 rounded-full'>
