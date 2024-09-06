@@ -13,7 +13,7 @@ export default function AboutComponent() {
         <div class="mt-2 py-[2.5rem] min-w-[100vw] text-center flex justify-center bg-blue-200/60">
           <h2 className='font-extrabold text-6xl text-gray-800 md:text-8xl'>About Us</h2>
         </div>
-        <div className='mt-8 flex flex-col gap-20 md:flex-row'>
+        <div className='mt-8 flex flex-col gap-20 lg:flex-row'>
           <div className='relative mx-auto my-auto w-[20rem] min-w-[20rem] text-center'>
             <div className='absolute top-0 left-0 right-0 bottom-0 bg-orange-100/95 -z-10 translate-x-9 translate-y-9 rounded-lg'></div>
             <img className='w-full h-auto rounded-lg shadow-sm shadow-gray-800' src="images/owner2.jpg" alt="" />
