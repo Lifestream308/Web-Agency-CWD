@@ -14,7 +14,7 @@ export default function FooterComponent() {
               <img className='w-28 min-w-28 h-auto sm:w-32' src="images/logo3.png" alt="Company Tree Logo" />
             </Link>
             <div className=''>
-              <h1 className='text-2xl font-bold text-gray-800 xl:text-3xl'>Claremont Web Designs</h1>
+              <p className='text-2xl text-center font-bold text-gray-800 xl:text-3xl'>Claremont Web Designs</p>
               {/* <h2 className='font-extralight text-gray-600 text-base'>Web Agency</h2> */}
             </div>
           </div>
