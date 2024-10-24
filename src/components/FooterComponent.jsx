@@ -6,7 +6,7 @@ export default function FooterComponent() {
 
   return (
     <>
-        <footer className='mt-20 mb-16 flex flex-col-reverse gap-6 text-gray-800 justify-around items-center'>
+        <footer className='mt-20 mb-16 flex flex-col gap-6 text-gray-800 justify-around items-center'>
           <div className='flex flex-col items-center gap-2'>
             {/* <h3>setEmail@gmail.com</h3> */}
             <div className='flex flex-col justify-center items-center'>
